@@ -2,6 +2,7 @@
 
 Tern 官方文档的非官方简体中文翻译，按页面完整翻译并尽量保持上游结构。
 
+- 在线文档：[Tern 中文文档](https://explorer-cc.github.io/tern-doc-zh/)
 - 上游文档：[docs.stencil.so/tern](https://docs.stencil.so/tern/)
 - Tern SDK：[stencil-hq/tern-sdk](https://github.com/stencil-hq/tern-sdk)
 - 参考实现：[Aieguu/omp-docs-cn](https://github.com/aieguu/omp-docs-cn)
@@ -67,13 +68,13 @@ GitHub Actions 在 `main` 更新后构建并发布到 GitHub Pages。首次部�
 ## 图示与发布边界
 
 - 372 张 PNG（186 组浅深色图示）已原样保存到 `docs/assets/figures/`，保留官方文件名；正文的 `src`、`srcset` 使用本地相对路径，官方来源 URL 保留在 `upstream-pages.json`。全部文件的 SHA-256 与既有官方原图记录一致。
-- 本次本地化通过 84 页、710 个代码块的文档校验，并在带项目路径前缀的开发预览中完成 18 页 × 2 主题检查，372 张本地图片均可解码。未重新运行生产构建；预览临时预打包 `fastdom` 及其 `fastdom-promised.js` 子入口以绕过 Mermaid 的开发模式导出错误，未修改项目依赖或生产配置。
+- 图片本地化已通过 84 页、710 个代码块的文档校验及生产构建；本地生产预览和 GitHub Pages 均完成 18 页 × 2 主题检查，372 张图片均可解码。开发预览曾临时预打包 `fastdom` 及其 `fastdom-promised.js` 子入口以绕过开发模式导出错误，未修改项目依赖或生产配置。
 - 历史逐图观察及资源哈希保存在 [image-review.json](image-review.json)，不作为后续图片同步的前置条件；正文中的额外本站图片校对说明已删除。
 - 修复了 19 处 HTML 图注中反引号直接显示的问题；API 名称现以真正的行内代码渲染。架构 Mermaid 也已在两种主题下检查实际节点、连线和完整标签，而非只检查 SVG 是否存在。
 - 图片原样沿用上游，不修改图内文字或布局，不额外要求辨认细节、补图或重绘。
 - 后续同步先运行 `npm run sync:check` 更新来源清单，再运行 `npm run sync:assets` 更新原图，并同步对应译文和图片引用。只检查来源、资源完整性、引用和浅深色显示，不增加图片内容辨认要求；图片文件与正文一并提交。
 - 官方文档及图示的翻译、再发布许可仍待确认；SDK 仓库的开源状态不能作为文档资源已获授权的依据。
-- 本地构建通过不等于 GitHub Pages 已上线。目标源码仓库为 [Explorer-cc/tern-doc-zh](https://github.com/Explorer-cc/tern-doc-zh)，默认分支为 `main`；本次先推送源码，不启用 Pages，线上 URL 尚未验收。
+- 源码仓库为 [Explorer-cc/tern-doc-zh](https://github.com/Explorer-cc/tern-doc-zh)，默认分支为 `main`。已通过 [GitHub Actions 构建与部署](https://github.com/Explorer-cc/tern-doc-zh/actions/runs/43379809943)，线上地址为 [explorer-cc.github.io/tern-doc-zh](https://explorer-cc.github.io/tern-doc-zh/)；84 条页面路由、深层页刷新、站内导航、本地图片和两种主题下的架构 Mermaid 均已实际验收。
 - Mermaid 依赖使部分构建分块超过 Vite 的 500 kB 提示阈值；当前构建成功，未关闭该提示。
 
 ## 许可证

@@ -4,11 +4,11 @@
 
 完整翻译并发布 [Tern Plugin SDK 文档](https://docs.stencil.so/tern/)，站点组织和维护方式参考 [Aieguu/omp-docs-cn](https://github.com/aieguu/omp-docs-cn)，使用 VitePress，并通过 GitHub Actions 部署到 GitHub Pages。Tern 的上游源码仓库是 [stencil-hq/tern-sdk](https://github.com/stencil-hq/tern-sdk)，但文档事实来源以官方文档站为准。
 
-**当前状态（2026-11-13）：** 84 个官方 Markdown 页面均有中文译文，并已完成一轮非代码说明的源译逐段技术审校；这不代表零漏译或零错译。全量结构、表格、710 个代码块、站内链接与锚点校验及生产构建通过。18 个含 PNG 图示的页面、186 组浅深色原图（372 张）已逐张视觉校对并通过实际主题切换与生产显示复核；本轮校对记录见 `image-review.json`。架构 Mermaid 的两主题节点、连线和完整标签也已验收。`upstream-baseline.json` 已建立，上游文档版本仍未确认。已初始化本地 Git，目标公开仓库为 `Explorer-cc/tern-doc-zh`，默认分支为 `main`；文档与图示的再发布许可及真实 GitHub Pages 上线仍未完成，不能把本地验收当作已上线。
+**当前状态（2026-11-13）：** 84 个官方 Markdown 页面均有中文译文，并已完成一轮非代码说明的源译逐段技术审校；这不代表零漏译或零错译。全量结构、表格、710 个代码块、站内链接与锚点校验及生产构建通过。18 个含 PNG 图示的页面、186 组浅深色原图（372 张）已逐张视觉校对并通过实际主题切换与生产显示复核；本轮校对记录见 `image-review.json`。架构 Mermaid 的两主题节点、连线和完整标签也已验收。`upstream-baseline.json` 已建立，上游文档版本仍未确认。源码已推送至公开仓库 `Explorer-cc/tern-doc-zh` 的 `main` 分支，GitHub Pages 已上线并通过实际验收：[explorer-cc.github.io/tern-doc-zh](https://explorer-cc.github.io/tern-doc-zh/)。文档与图示的翻译、再发布许可仍待确认。
 
 ## 阶段 1：盘点上游与仓库
 
-- [x] 检查仓库现有文件、GitHub 仓库名、默认分支和已有改动，保留用户文件；已确认公开目标仓库为 `Explorer-cc/tern-doc-zh` 并初始化本地 `main` 分支，本次只推送源码，不启用 Pages。
+- [x] 检查仓库现有文件、GitHub 仓库名、默认分支和已有改动，保留用户文件；已确认公开仓库为 `Explorer-cc/tern-doc-zh`，源码已推送至 `main` 分支。
 - [x] 递归盘点官方文档首页的完整导航和所有链接页面，记录每页标题、原始 URL、分类、内部链接及图片/静态资源（当前清单 84 页）。
 - [x] 对照 Tern 文档提供的 `.md` 页面，确认 Markdown 可直接抓取；以逐页 SHA-256 清单检测内容变化。
 - [ ] 检查 Tern 官方文档与示例资源的许可、归属和可再发布范围；记录处理方式，尤其是图片和图示。
@@ -93,16 +93,16 @@
 
 - [x] 添加 GitHub Actions workflow：默认分支 `main` 推送或手动触发时安装锁文件依赖、先检查上游漂移与译文、构建 VitePress、上传 `docs/.vitepress/dist` 并部署。
 - [x] 配置 `pages: write`、`id-token: write` 权限和 `github-pages` environment，使用 GitHub Pages artifact/deploy actions。
-- [ ] 在目标 GitHub 仓库 Settings → Pages 中选择 **GitHub Actions** 作为发布源。
-- [ ] 检查 workflow 和部署 URL；在真实 Pages 地址验证首页、深层路由、静态资源、导航及刷新。
-- [ ] 配置正确的 Pages `base` 并重新部署，直到线上验收通过；当前无 remote/目标仓库，尚不能上线。
+- [x] 在目标 GitHub 仓库 Settings → Pages 中选择 **GitHub Actions** 作为发布源。
+- [x] [发布工作流](https://github.com/Explorer-cc/tern-doc-zh/actions/runs/43379809943) 的 build、deploy 均成功；线上 84 条路由可访问，深层页刷新和站内导航正常，18 页 × 2 主题、372 张本地图片均通过，架构 Mermaid 的 5 个节点、4 条连线和 11 个标签完整可见。
+- [x] Pages `base` 已由 Actions 的 `GITHUB_REPOSITORY` 自动生成为 `/tern-doc-zh/`，不在配置中写死仓库名；实际地址为 [explorer-cc.github.io/tern-doc-zh](https://explorer-cc.github.io/tern-doc-zh/)。
 
 ## 阶段 7：维护与交付
 
 - [x] 在 README 中说明用途、上游地址、非官方性质、来源核对日期、本地开发和部署方式。
 - [x] 记录上游同步流程：检查变化、导出原文快照、按差异翻译、验证、更新基线。
 - [x] 标注来源核对日期为 2026-11-13；上游版本未确认，不猜测。
-- [x] 汇总本轮覆盖、验证结果和剩余发布事项；线上 URL 尚不存在，不声称部署完成。
+- [x] 汇总覆盖、验证结果和发布事项；GitHub Pages 已上线并完成实际验收，上游文档与图示的许可核对仍未完成。
 
 ## 最终验收
 
