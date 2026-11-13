@@ -14,6 +14,8 @@ npm ci
 npm run docs:dev
 ```
 
+首页自定义样式位于 `docs/.vitepress/theme/style.css`，功能卡片与正文之间保留 32px 间距，仅作用于首页。
+
 ## 构建和预览
 
 ```sh
