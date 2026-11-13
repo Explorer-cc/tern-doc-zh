@@ -1,0 +1,26 @@
+.vp-doc .tn-figure {
+  margin: 24px 0;
+}
+
+.vp-doc .tn-figure img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+}
+
+.vp-doc .tn-dark,
+.dark .vp-doc .tn-light {
+  display: none;
+}
+
+.dark .vp-doc .tn-dark {
+  display: block;
+}
+
+.vp-doc .tn-figure figcaption {
+  margin-top: 8px;
+  color: var(--vp-c-text-2);
+  font-size: 14px;
+  line-height: 1.6;
+}

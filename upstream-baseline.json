@@ -1,0 +1,1700 @@
+{
+  "index.md": {
+    "url": "https://docs.stencil.so/tern/index.md",
+    "title": "Tern Plugin SDK",
+    "sha256": "864db61f39e259854a1aa9e1da5bd6c21be4d1a2e2ceb97693071375f64d95f7",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/architecture.md",
+      "https://docs.stencil.so/tern/concepts/packages.md",
+      "https://docs.stencil.so/tern/concepts/security.md",
+      "https://docs.stencil.so/tern/elements/index.md",
+      "https://docs.stencil.so/tern/examples/index.md",
+      "https://docs.stencil.so/tern/guides/blocks.md",
+      "https://docs.stencil.so/tern/guides/chrome.md",
+      "https://docs.stencil.so/tern/guides/commands.md",
+      "https://docs.stencil.so/tern/guides/distribution.md",
+      "https://docs.stencil.so/tern/guides/getting-started.md",
+      "https://docs.stencil.so/tern/guides/hooks.md",
+      "https://docs.stencil.so/tern/guides/layout.md",
+      "https://docs.stencil.so/tern/guides/lenses.md",
+      "https://docs.stencil.so/tern/guides/routing.md",
+      "https://docs.stencil.so/tern/guides/themes.md",
+      "https://docs.stencil.so/tern/guides/views.md",
+      "https://docs.stencil.so/tern/protocol/index.md",
+      "https://docs.stencil.so/tern/protocol/sdks.md",
+      "https://docs.stencil.so/tern/reference/api.md",
+      "https://docs.stencil.so/tern/scripts/index.md",
+      "https://docs.stencil.so/tern/styles/index.md"
+    ],
+    "assets": []
+  },
+  "concepts/architecture.md": {
+    "url": "https://docs.stencil.so/tern/concepts/architecture.md",
+    "title": "Architecture",
+    "sha256": "7ab6239c5dfebb91f09408de1debde93af2505e30a689ccf4b632c65ef61b2df",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/lifecycle.md",
+      "https://docs.stencil.so/tern/concepts/packages.md",
+      "https://docs.stencil.so/tern/concepts/runtime.md",
+      "https://docs.stencil.so/tern/concepts/security.md",
+      "https://docs.stencil.so/tern/concepts/support-matrix.md",
+      "https://docs.stencil.so/tern/guides/blocks.md",
+      "https://docs.stencil.so/tern/guides/commands.md",
+      "https://docs.stencil.so/tern/guides/hooks.md",
+      "https://docs.stencil.so/tern/guides/lenses.md"
+    ],
+    "assets": []
+  },
+  "concepts/packages.md": {
+    "url": "https://docs.stencil.so/tern/concepts/packages.md",
+    "title": "Packages and Manifests",
+    "sha256": "2a6b11cbc67dee2ddd8705499fe0e1a86073ff969593fd6a5c18659ec2b0b830",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/lifecycle.md",
+      "https://docs.stencil.so/tern/concepts/runtime.md",
+      "https://docs.stencil.so/tern/guides/chrome.md",
+      "https://docs.stencil.so/tern/guides/distribution.md",
+      "https://docs.stencil.so/tern/guides/io.md",
+      "https://docs.stencil.so/tern/reference/cli.md",
+      "https://docs.stencil.so/tern/reference/limits.md",
+      "https://docs.stencil.so/tern/reference/manifest.md"
+    ],
+    "assets": []
+  },
+  "concepts/security.md": {
+    "url": "https://docs.stencil.so/tern/concepts/security.md",
+    "title": "Trust and Security",
+    "sha256": "d6d1c758e72d0767dd624a18d0944b78574099faf0ac2ccb5b9e9fb752a43436",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/architecture.md",
+      "https://docs.stencil.so/tern/concepts/packages.md",
+      "https://docs.stencil.so/tern/concepts/runtime.md",
+      "https://docs.stencil.so/tern/guides/distribution.md",
+      "https://docs.stencil.so/tern/guides/io.md",
+      "https://docs.stencil.so/tern/reference/api-window.md"
+    ],
+    "assets": []
+  },
+  "elements/index.md": {
+    "url": "https://docs.stencil.so/tern/elements/index.md",
+    "title": "Elements",
+    "sha256": "ad48ab3bc43e31ef36344a92b1eb2bf0c01dd7091adb20ef65c7806ef71099cf",
+    "links": [
+      "https://docs.stencil.so/tern/elements/chrome.md",
+      "https://docs.stencil.so/tern/elements/data.md",
+      "https://docs.stencil.so/tern/elements/el.md",
+      "https://docs.stencil.so/tern/elements/input.md",
+      "https://docs.stencil.so/tern/elements/layout.md",
+      "https://docs.stencil.so/tern/elements/lists.md",
+      "https://docs.stencil.so/tern/elements/motion.md",
+      "https://docs.stencil.so/tern/elements/text.md",
+      "https://docs.stencil.so/tern/elements/work.md",
+      "https://docs.stencil.so/tern/guides/blocks.md",
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/guides/design.md",
+      "https://docs.stencil.so/tern/guides/views.md",
+      "https://docs.stencil.so/tern/protocol/index.md",
+      "https://docs.stencil.so/tern/reference/api-host.md",
+      "https://docs.stencil.so/tern/reference/ui.md",
+      "https://docs.stencil.so/tern/styles/index.md"
+    ],
+    "assets": [
+      "https://docs.stencil.so/tern/figures/elements-index-overview.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-index-overview.light.png",
+      "https://docs.stencil.so/tern/figures/elements-index-tones.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-index-tones.light.png"
+    ]
+  },
+  "examples/index.md": {
+    "url": "https://docs.stencil.so/tern/examples/index.md",
+    "title": "Example Plugins",
+    "sha256": "2c7d0e05d5d94a6fb53f5d000b2f851afaffa0cf181bee3c0de916ca8ec6f5e2",
+    "links": [
+      "https://docs.stencil.so/tern/examples/dirvars.md",
+      "https://docs.stencil.so/tern/examples/jsonx.md",
+      "https://docs.stencil.so/tern/examples/longrun.md",
+      "https://docs.stencil.so/tern/examples/review-queue.md",
+      "https://docs.stencil.so/tern/examples/terraform.md",
+      "https://docs.stencil.so/tern/examples/workspaces.md",
+      "https://docs.stencil.so/tern/guides/distribution.md",
+      "https://docs.stencil.so/tern/guides/getting-started.md",
+      "https://docs.stencil.so/tern/index.md",
+      "https://docs.stencil.so/tern/reference/api-window.md"
+    ],
+    "assets": []
+  },
+  "guides/blocks.md": {
+    "url": "https://docs.stencil.so/tern/guides/blocks.md",
+    "title": "Blocks",
+    "sha256": "c4a3c2bd4f605ec221bb6377ee7bd12832bd239e3bd80033fa2456b37ca5296d",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/lifecycle.md",
+      "https://docs.stencil.so/tern/guides/design.md",
+      "https://docs.stencil.so/tern/guides/io.md",
+      "https://docs.stencil.so/tern/guides/layout.md",
+      "https://docs.stencil.so/tern/guides/routing.md",
+      "https://docs.stencil.so/tern/guides/views.md",
+      "https://docs.stencil.so/tern/protocol/surfaces.md",
+      "https://docs.stencil.so/tern/reference/api-host.md",
+      "https://docs.stencil.so/tern/reference/manifest.md"
+    ],
+    "assets": []
+  },
+  "guides/chrome.md": {
+    "url": "https://docs.stencil.so/tern/guides/chrome.md",
+    "title": "Chrome and Styling",
+    "sha256": "78cb467d3a620d7e59f27dd8157bd3f540e8c830c99f66f06f229fccedeea60f",
+    "links": [
+      "https://docs.stencil.so/tern/elements/data.md",
+      "https://docs.stencil.so/tern/examples/longrun.md",
+      "https://docs.stencil.so/tern/guides/chrome.md",
+      "https://docs.stencil.so/tern/guides/commands.md",
+      "https://docs.stencil.so/tern/guides/distribution.md",
+      "https://docs.stencil.so/tern/guides/io.md",
+      "https://docs.stencil.so/tern/guides/themes.md",
+      "https://docs.stencil.so/tern/guides/views.md",
+      "https://docs.stencil.so/tern/reference/api-window.md",
+      "https://docs.stencil.so/tern/reference/limits.md",
+      "https://docs.stencil.so/tern/styles/css.md",
+      "https://docs.stencil.so/tern/styles/index.md",
+      "https://docs.stencil.so/tern/styles/variables.md"
+    ],
+    "assets": []
+  },
+  "guides/commands.md": {
+    "url": "https://docs.stencil.so/tern/guides/commands.md",
+    "title": "Commands, Keys, and Overrides",
+    "sha256": "5933968fd0409a1a44d1d7dfad8a1d48bdca7fa71b7e3388171571124c3a82cf",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/runtime.md",
+      "https://docs.stencil.so/tern/guides/chrome.md",
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/guides/layout.md",
+      "https://docs.stencil.so/tern/guides/routing.md",
+      "https://docs.stencil.so/tern/reference/actions.md",
+      "https://docs.stencil.so/tern/reference/api-window.md"
+    ],
+    "assets": []
+  },
+  "guides/distribution.md": {
+    "url": "https://docs.stencil.so/tern/guides/distribution.md",
+    "title": "Distribution",
+    "sha256": "1fef3dad38d61080852c9341a4dfc647fd3a8f632373c989e531ab94f2d9897b",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/architecture.md",
+      "https://docs.stencil.so/tern/concepts/lifecycle.md",
+      "https://docs.stencil.so/tern/concepts/packages.md",
+      "https://docs.stencil.so/tern/concepts/security.md",
+      "https://docs.stencil.so/tern/concepts/support-matrix.md",
+      "https://docs.stencil.so/tern/guides/chrome.md",
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/guides/distribution.md",
+      "https://docs.stencil.so/tern/reference/cli.md"
+    ],
+    "assets": []
+  },
+  "guides/getting-started.md": {
+    "url": "https://docs.stencil.so/tern/guides/getting-started.md",
+    "title": "Getting Started",
+    "sha256": "07317287aa549042246db93e1b4477aa3c26ad56ac87ce85206710fcede098f6",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/architecture.md",
+      "https://docs.stencil.so/tern/concepts/lifecycle.md",
+      "https://docs.stencil.so/tern/concepts/packages.md",
+      "https://docs.stencil.so/tern/guides/blocks.md",
+      "https://docs.stencil.so/tern/guides/commands.md",
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/guides/distribution.md",
+      "https://docs.stencil.so/tern/guides/hooks.md",
+      "https://docs.stencil.so/tern/guides/lenses.md",
+      "https://docs.stencil.so/tern/guides/routing.md",
+      "https://docs.stencil.so/tern/guides/views.md",
+      "https://docs.stencil.so/tern/reference/api.md"
+    ],
+    "assets": []
+  },
+  "guides/hooks.md": {
+    "url": "https://docs.stencil.so/tern/guides/hooks.md",
+    "title": "Host Hooks and the Spawn Filter",
+    "sha256": "67ab86d182b1156e7a1eeed43d162667989a21c7117cf8f540bf72f7c7c5a41a",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/architecture.md",
+      "https://docs.stencil.so/tern/concepts/security.md",
+      "https://docs.stencil.so/tern/guides/hooks.md",
+      "https://docs.stencil.so/tern/guides/io.md",
+      "https://docs.stencil.so/tern/guides/layout.md",
+      "https://docs.stencil.so/tern/reference/api-host.md",
+      "https://docs.stencil.so/tern/reference/events.md"
+    ],
+    "assets": []
+  },
+  "guides/layout.md": {
+    "url": "https://docs.stencil.so/tern/guides/layout.md",
+    "title": "Layout and Workspaces",
+    "sha256": "b74aa04e457670c34c83fc441d89dfa547ea6276b3ee602fbc212526f011f9f5",
+    "links": [
+      "https://docs.stencil.so/tern/examples/workspaces.md",
+      "https://docs.stencil.so/tern/guides/blocks.md",
+      "https://docs.stencil.so/tern/guides/commands.md",
+      "https://docs.stencil.so/tern/guides/hooks.md",
+      "https://docs.stencil.so/tern/guides/io.md",
+      "https://docs.stencil.so/tern/reference/events.md"
+    ],
+    "assets": []
+  },
+  "guides/lenses.md": {
+    "url": "https://docs.stencil.so/tern/guides/lenses.md",
+    "title": "Command Lenses",
+    "sha256": "d3e139c109cff5030257b2e48dd68946fa0213ca9a4ba52ea83d2d26f7c94022",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/architecture.md",
+      "https://docs.stencil.so/tern/concepts/lifecycle.md",
+      "https://docs.stencil.so/tern/guides/views.md",
+      "https://docs.stencil.so/tern/reference/api-host.md",
+      "https://docs.stencil.so/tern/reference/manifest.md"
+    ],
+    "assets": []
+  },
+  "guides/routing.md": {
+    "url": "https://docs.stencil.so/tern/guides/routing.md",
+    "title": "Routing Opens and Links",
+    "sha256": "f1e7ffbb51ef6d703641f4a45935021960f73e769a3cd3af3891f66bb8723726",
+    "links": [
+      "https://docs.stencil.so/tern/guides/blocks.md",
+      "https://docs.stencil.so/tern/guides/commands.md",
+      "https://docs.stencil.so/tern/guides/routing.md",
+      "https://docs.stencil.so/tern/reference/api-window.md",
+      "https://docs.stencil.so/tern/reference/manifest.md"
+    ],
+    "assets": []
+  },
+  "guides/themes.md": {
+    "url": "https://docs.stencil.so/tern/guides/themes.md",
+    "title": "Custom Themes",
+    "sha256": "99ad1d188c39e1ada3b25ae0b36d0f2bee73565e8648edb554245b7864ea392b",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/packages.md",
+      "https://docs.stencil.so/tern/guides/chrome.md",
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/styles/variables.md"
+    ],
+    "assets": []
+  },
+  "guides/views.md": {
+    "url": "https://docs.stencil.so/tern/guides/views.md",
+    "title": "Building Views",
+    "sha256": "bdb221bcd3034246aa945eeb202e2cca215f9d83d63284a15563f66bd792e436",
+    "links": [
+      "https://docs.stencil.so/tern/elements/data.md",
+      "https://docs.stencil.so/tern/elements/el.md",
+      "https://docs.stencil.so/tern/elements/index.md",
+      "https://docs.stencil.so/tern/elements/input.md",
+      "https://docs.stencil.so/tern/elements/lists.md",
+      "https://docs.stencil.so/tern/elements/text.md",
+      "https://docs.stencil.so/tern/guides/blocks.md",
+      "https://docs.stencil.so/tern/guides/chrome.md",
+      "https://docs.stencil.so/tern/guides/design.md",
+      "https://docs.stencil.so/tern/guides/lenses.md",
+      "https://docs.stencil.so/tern/reference/ui.md",
+      "https://docs.stencil.so/tern/styles/index.md"
+    ],
+    "assets": []
+  },
+  "protocol/index.md": {
+    "url": "https://docs.stencil.so/tern/protocol/index.md",
+    "title": "Surface Protocol",
+    "sha256": "a2e52a8d043541be6cdab4e345d0b7d52fa8791884b54ef392e2f3c4cbf05ffa",
+    "links": [
+      "https://docs.stencil.so/tern/elements/el.md",
+      "https://docs.stencil.so/tern/elements/index.md",
+      "https://docs.stencil.so/tern/elements/input.md",
+      "https://docs.stencil.so/tern/guides/design.md",
+      "https://docs.stencil.so/tern/guides/views.md",
+      "https://docs.stencil.so/tern/protocol/documents.md",
+      "https://docs.stencil.so/tern/protocol/handshake.md",
+      "https://docs.stencil.so/tern/protocol/input.md",
+      "https://docs.stencil.so/tern/protocol/operations.md",
+      "https://docs.stencil.so/tern/protocol/sdks.md",
+      "https://docs.stencil.so/tern/protocol/surfaces.md",
+      "https://docs.stencil.so/tern/protocol/theme.md",
+      "https://docs.stencil.so/tern/protocol/transport.md",
+      "https://docs.stencil.so/tern/styles/index.md"
+    ],
+    "assets": [
+      "https://docs.stencil.so/tern/figures/protocol-index-session.dark.png",
+      "https://docs.stencil.so/tern/figures/protocol-index-session.light.png"
+    ]
+  },
+  "protocol/sdks.md": {
+    "url": "https://docs.stencil.so/tern/protocol/sdks.md",
+    "title": "SDKs",
+    "sha256": "5bc9ba7c9c1af4c75e2889d10aed8b76d25bf8adffa26e8e6e0bef92d12edae1",
+    "links": [
+      "https://docs.stencil.so/tern/elements/data.md",
+      "https://docs.stencil.so/tern/elements/input.md",
+      "https://docs.stencil.so/tern/guides/blocks.md",
+      "https://docs.stencil.so/tern/guides/design.md",
+      "https://docs.stencil.so/tern/protocol/documents.md",
+      "https://docs.stencil.so/tern/protocol/handshake.md",
+      "https://docs.stencil.so/tern/protocol/index.md",
+      "https://docs.stencil.so/tern/protocol/input.md",
+      "https://docs.stencil.so/tern/protocol/operations.md",
+      "https://docs.stencil.so/tern/protocol/surfaces.md",
+      "https://docs.stencil.so/tern/protocol/transport.md"
+    ],
+    "assets": []
+  },
+  "reference/api.md": {
+    "url": "https://docs.stencil.so/tern/reference/api.md",
+    "title": "API Reference",
+    "sha256": "ab07229111dc9ffb7375423e98774253695771b5548e3921196acd990eecc048",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/runtime.md",
+      "https://docs.stencil.so/tern/reference/api-host.md",
+      "https://docs.stencil.so/tern/reference/api-shared.md",
+      "https://docs.stencil.so/tern/reference/api-window.md",
+      "https://docs.stencil.so/tern/reference/errors.md",
+      "https://docs.stencil.so/tern/reference/events.md",
+      "https://docs.stencil.so/tern/reference/ui.md"
+    ],
+    "assets": []
+  },
+  "scripts/index.md": {
+    "url": "https://docs.stencil.so/tern/scripts/index.md",
+    "title": "Scripts",
+    "sha256": "549aa2977e1fba40fdd7bd55ce941d8441bdc91d05096e409620976e6f57a33a",
+    "links": [
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/reference/cli.md",
+      "https://docs.stencil.so/tern/scripts/board.md",
+      "https://docs.stencil.so/tern/scripts/browser.md",
+      "https://docs.stencil.so/tern/scripts/canvas.md",
+      "https://docs.stencil.so/tern/scripts/carly.md",
+      "https://docs.stencil.so/tern/scripts/control.md",
+      "https://docs.stencil.so/tern/scripts/file.md",
+      "https://docs.stencil.so/tern/scripts/files.md",
+      "https://docs.stencil.so/tern/scripts/git.md",
+      "https://docs.stencil.so/tern/scripts/harness.md",
+      "https://docs.stencil.so/tern/scripts/navigation.md",
+      "https://docs.stencil.so/tern/scripts/notebook.md",
+      "https://docs.stencil.so/tern/scripts/pip.md",
+      "https://docs.stencil.so/tern/scripts/prefs.md",
+      "https://docs.stencil.so/tern/scripts/procs.md",
+      "https://docs.stencil.so/tern/scripts/profile.md",
+      "https://docs.stencil.so/tern/scripts/remote.md",
+      "https://docs.stencil.so/tern/scripts/screen.md",
+      "https://docs.stencil.so/tern/scripts/sessions.md",
+      "https://docs.stencil.so/tern/scripts/sqlite.md",
+      "https://docs.stencil.so/tern/scripts/status.md",
+      "https://docs.stencil.so/tern/scripts/terminal.md"
+    ],
+    "assets": []
+  },
+  "styles/index.md": {
+    "url": "https://docs.stencil.so/tern/styles/index.md",
+    "title": "Styling Views",
+    "sha256": "29617384d477700ba4f6413aa117a956a7791f05e1ec2fca600c3ef1c871a0fd",
+    "links": [
+      "https://docs.stencil.so/tern/elements/el.md",
+      "https://docs.stencil.so/tern/elements/index.md",
+      "https://docs.stencil.so/tern/elements/text.md",
+      "https://docs.stencil.so/tern/elements/work.md",
+      "https://docs.stencil.so/tern/guides/chrome.md",
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/guides/design.md",
+      "https://docs.stencil.so/tern/protocol/surfaces.md",
+      "https://docs.stencil.so/tern/protocol/theme.md",
+      "https://docs.stencil.so/tern/styles/css.md",
+      "https://docs.stencil.so/tern/styles/index.md",
+      "https://docs.stencil.so/tern/styles/variables.md"
+    ],
+    "assets": [
+      "https://docs.stencil.so/tern/figures/styles-index-badge.dark.png",
+      "https://docs.stencil.so/tern/figures/styles-index-badge.light.png",
+      "https://docs.stencil.so/tern/figures/styles-index-card.dark.png",
+      "https://docs.stencil.so/tern/figures/styles-index-card.light.png",
+      "https://docs.stencil.so/tern/figures/styles-index-done.dark.png",
+      "https://docs.stencil.so/tern/figures/styles-index-done.light.png",
+      "https://docs.stencil.so/tern/figures/styles-index-lens.dark.png",
+      "https://docs.stencil.so/tern/figures/styles-index-lens.light.png",
+      "https://docs.stencil.so/tern/figures/styles-index-table.dark.png",
+      "https://docs.stencil.so/tern/figures/styles-index-table.light.png",
+      "https://docs.stencil.so/tern/figures/styles-index-tone.dark.png",
+      "https://docs.stencil.so/tern/figures/styles-index-tone.light.png"
+    ]
+  },
+  "concepts/lifecycle.md": {
+    "url": "https://docs.stencil.so/tern/concepts/lifecycle.md",
+    "title": "Lifecycle and Reload",
+    "sha256": "388537d82c12642bab204606c7368755524594dc3da05b13bb0ea04625a6a2bc",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/architecture.md",
+      "https://docs.stencil.so/tern/concepts/lifecycle.md",
+      "https://docs.stencil.so/tern/concepts/packages.md",
+      "https://docs.stencil.so/tern/concepts/runtime.md",
+      "https://docs.stencil.so/tern/guides/blocks.md",
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/guides/layout.md",
+      "https://docs.stencil.so/tern/guides/lenses.md",
+      "https://docs.stencil.so/tern/reference/cli.md"
+    ],
+    "assets": []
+  },
+  "concepts/runtime.md": {
+    "url": "https://docs.stencil.so/tern/concepts/runtime.md",
+    "title": "Runtime, Budgets, and JIT",
+    "sha256": "02f5451a86f24394a6303ed65d79f0284ba6542ca2d0eaf8513f876cca184a2b",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/lifecycle.md",
+      "https://docs.stencil.so/tern/concepts/runtime.md",
+      "https://docs.stencil.so/tern/concepts/security.md",
+      "https://docs.stencil.so/tern/examples/review-queue.md",
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/guides/hooks.md",
+      "https://docs.stencil.so/tern/guides/io.md",
+      "https://docs.stencil.so/tern/reference/api-window.md",
+      "https://docs.stencil.so/tern/reference/api.md",
+      "https://docs.stencil.so/tern/reference/errors.md",
+      "https://docs.stencil.so/tern/reference/limits.md"
+    ],
+    "assets": []
+  },
+  "concepts/support-matrix.md": {
+    "url": "https://docs.stencil.so/tern/concepts/support-matrix.md",
+    "title": "Support Matrix",
+    "sha256": "5176a33d7393d6e8b6495c0612971ae3b1c4ed3c0f75a0e1fea79448180bf4e9",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/architecture.md",
+      "https://docs.stencil.so/tern/concepts/lifecycle.md",
+      "https://docs.stencil.so/tern/concepts/runtime.md",
+      "https://docs.stencil.so/tern/concepts/security.md",
+      "https://docs.stencil.so/tern/guides/chrome.md",
+      "https://docs.stencil.so/tern/reference/limits.md"
+    ],
+    "assets": []
+  },
+  "guides/io.md": {
+    "url": "https://docs.stencil.so/tern/guides/io.md",
+    "title": "Files, Processes, and Storage",
+    "sha256": "5b8bbc671e9ebff3f8a0041520bbd958544de992a6eb02ac01996979875bb6c6",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/runtime.md",
+      "https://docs.stencil.so/tern/concepts/security.md",
+      "https://docs.stencil.so/tern/examples/longrun.md",
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/guides/io.md",
+      "https://docs.stencil.so/tern/reference/api-shared.md",
+      "https://docs.stencil.so/tern/reference/api-window.md"
+    ],
+    "assets": []
+  },
+  "reference/cli.md": {
+    "url": "https://docs.stencil.so/tern/reference/cli.md",
+    "title": "Command Line",
+    "sha256": "069c9dbb3dc7687bb7c0202b469b043e0a9ac49064265b4feeae70ffb6a5ab2f",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/lifecycle.md",
+      "https://docs.stencil.so/tern/concepts/packages.md",
+      "https://docs.stencil.so/tern/guides/distribution.md",
+      "https://docs.stencil.so/tern/guides/getting-started.md",
+      "https://docs.stencil.so/tern/reference/api.md",
+      "https://docs.stencil.so/tern/reference/errors.md",
+      "https://docs.stencil.so/tern/reference/manifest.md"
+    ],
+    "assets": []
+  },
+  "reference/limits.md": {
+    "url": "https://docs.stencil.so/tern/reference/limits.md",
+    "title": "Limits",
+    "sha256": "fbf5ae2bd9e04d0f5d6fe1312b7166df3a3ecb17c2c075526ec311f0f492785b",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/lifecycle.md",
+      "https://docs.stencil.so/tern/concepts/runtime.md",
+      "https://docs.stencil.so/tern/reference/errors.md",
+      "https://docs.stencil.so/tern/reference/manifest.md"
+    ],
+    "assets": []
+  },
+  "reference/manifest.md": {
+    "url": "https://docs.stencil.so/tern/reference/manifest.md",
+    "title": "Manifest Reference",
+    "sha256": "53229fad29a559a16c1450e70f3075920b41ed57cdd3c5e8ab60409eb333654d",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/architecture.md",
+      "https://docs.stencil.so/tern/concepts/packages.md",
+      "https://docs.stencil.so/tern/elements/data.md",
+      "https://docs.stencil.so/tern/guides/chrome.md",
+      "https://docs.stencil.so/tern/reference/api-host.md",
+      "https://docs.stencil.so/tern/reference/cli.md",
+      "https://docs.stencil.so/tern/reference/errors.md",
+      "https://docs.stencil.so/tern/reference/limits.md"
+    ],
+    "assets": []
+  },
+  "reference/api-window.md": {
+    "url": "https://docs.stencil.so/tern/reference/api-window.md",
+    "title": "Window API",
+    "sha256": "e549529f435ba42ee288dd76ca22dcffdd40a696bea8a7ff0faf8c834144170a",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/runtime.md",
+      "https://docs.stencil.so/tern/elements/data.md",
+      "https://docs.stencil.so/tern/guides/carly.md",
+      "https://docs.stencil.so/tern/guides/chrome.md",
+      "https://docs.stencil.so/tern/guides/commands.md",
+      "https://docs.stencil.so/tern/guides/layout.md",
+      "https://docs.stencil.so/tern/guides/routing.md",
+      "https://docs.stencil.so/tern/index.md",
+      "https://docs.stencil.so/tern/reference/actions.md",
+      "https://docs.stencil.so/tern/reference/api-shared.md",
+      "https://docs.stencil.so/tern/reference/api-window.md",
+      "https://docs.stencil.so/tern/reference/events.md"
+    ],
+    "assets": []
+  },
+  "elements/chrome.md": {
+    "url": "https://docs.stencil.so/tern/elements/chrome.md",
+    "title": "Bars, Toasts and Overlays",
+    "sha256": "c52a65899c6206de0fac667ba56780f1d8564fce6c90fceb9869cd4f577314d5",
+    "links": [
+      "https://docs.stencil.so/tern/elements/chrome.md",
+      "https://docs.stencil.so/tern/elements/data.md",
+      "https://docs.stencil.so/tern/elements/index.md",
+      "https://docs.stencil.so/tern/elements/input.md",
+      "https://docs.stencil.so/tern/elements/layout.md",
+      "https://docs.stencil.so/tern/elements/lists.md",
+      "https://docs.stencil.so/tern/reference/api-host.md",
+      "https://docs.stencil.so/tern/reference/ui.md",
+      "https://docs.stencil.so/tern/styles/index.md",
+      "https://docs.stencil.so/tern/styles/variables.md"
+    ],
+    "assets": [
+      "https://docs.stencil.so/tern/figures/elements-chrome-overlay-caret.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-chrome-overlay-caret.light.png",
+      "https://docs.stencil.so/tern/figures/elements-chrome-overlay-modal.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-chrome-overlay-modal.light.png",
+      "https://docs.stencil.so/tern/figures/elements-chrome-overlay-sheet-drawer-inset.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-chrome-overlay-sheet-drawer-inset.light.png",
+      "https://docs.stencil.so/tern/figures/elements-chrome-overlay-sheet-drawer.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-chrome-overlay-sheet-drawer.light.png",
+      "https://docs.stencil.so/tern/figures/elements-chrome-overlay-sheet-inset.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-chrome-overlay-sheet-inset.light.png",
+      "https://docs.stencil.so/tern/figures/elements-chrome-overlay-sheet-left.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-chrome-overlay-sheet-left.light.png",
+      "https://docs.stencil.so/tern/figures/elements-chrome-overlay-sheet.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-chrome-overlay-sheet.light.png",
+      "https://docs.stencil.so/tern/figures/elements-chrome-status.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-chrome-status.light.png",
+      "https://docs.stencil.so/tern/figures/elements-chrome-toast.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-chrome-toast.light.png"
+    ]
+  },
+  "elements/data.md": {
+    "url": "https://docs.stencil.so/tern/elements/data.md",
+    "title": "Data",
+    "sha256": "a3388feec8a9fd26fd1f46f47fd9d8dcc447208325ad80dcb4fc028aacab74ff",
+    "links": [
+      "https://docs.stencil.so/tern/elements/data.md",
+      "https://docs.stencil.so/tern/elements/el.md",
+      "https://docs.stencil.so/tern/elements/index.md",
+      "https://docs.stencil.so/tern/elements/input.md",
+      "https://docs.stencil.so/tern/elements/lists.md",
+      "https://docs.stencil.so/tern/elements/motion.md",
+      "https://docs.stencil.so/tern/elements/text.md",
+      "https://docs.stencil.so/tern/guides/design.md",
+      "https://docs.stencil.so/tern/protocol/index.md",
+      "https://docs.stencil.so/tern/protocol/surfaces.md",
+      "https://docs.stencil.so/tern/reference/api-host.md",
+      "https://docs.stencil.so/tern/reference/ui.md",
+      "https://docs.stencil.so/tern/styles/css.md",
+      "https://docs.stencil.so/tern/styles/index.md",
+      "https://docs.stencil.so/tern/styles/variables.md"
+    ],
+    "assets": [
+      "https://docs.stencil.so/tern/figures/elements-data-attachment-chip.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-attachment-chip.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-attachment-pill.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-attachment-pill.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-attachment-tile.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-attachment-tile.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-attachment.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-attachment.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-avatar.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-avatar.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-avatars.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-avatars.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-badges.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-badges.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-carousel-arrows.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-carousel-arrows.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-carousel-ends.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-carousel-ends.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-carousel-strip.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-carousel-strip.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-carousel.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-carousel.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-icons.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-icons.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-image.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-image.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-kbd.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-kbd.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-kv.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-kv.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-stats.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-stats.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-table-rows.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-table-rows.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-table-sort-asc.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-table-sort-asc.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-table-sort-bar.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-table-sort-bar.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-table-sort.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-table-sort.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-table.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-table.light.png",
+      "https://docs.stencil.so/tern/figures/elements-data-tree.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-data-tree.light.png"
+    ]
+  },
+  "elements/el.md": {
+    "url": "https://docs.stencil.so/tern/elements/el.md",
+    "title": "HTML Elements",
+    "sha256": "fe261b51aa5e3bee8e0b88e2f083368f0bd3760ece4d55c083285a45be249ac6",
+    "links": [
+      "https://docs.stencil.so/tern/elements/data.md",
+      "https://docs.stencil.so/tern/elements/el.md",
+      "https://docs.stencil.so/tern/elements/index.md",
+      "https://docs.stencil.so/tern/elements/input.md",
+      "https://docs.stencil.so/tern/elements/lists.md",
+      "https://docs.stencil.so/tern/elements/text.md",
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/guides/design.md",
+      "https://docs.stencil.so/tern/guides/views.md",
+      "https://docs.stencil.so/tern/reference/ui.md",
+      "https://docs.stencil.so/tern/styles/css.md",
+      "https://docs.stencil.so/tern/styles/index.md",
+      "https://docs.stencil.so/tern/styles/variables.md"
+    ],
+    "assets": [
+      "https://docs.stencil.so/tern/figures/elements-el-controls.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-el-controls.light.png",
+      "https://docs.stencil.so/tern/figures/elements-el-form.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-el-form.light.png",
+      "https://docs.stencil.so/tern/figures/elements-el-grid.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-el-grid.light.png",
+      "https://docs.stencil.so/tern/figures/elements-el-segmented.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-el-segmented.light.png",
+      "https://docs.stencil.so/tern/figures/elements-el-text-tags.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-el-text-tags.light.png"
+    ]
+  },
+  "elements/input.md": {
+    "url": "https://docs.stencil.so/tern/elements/input.md",
+    "title": "Inputs and Buttons",
+    "sha256": "eb537976aed8ffb4a0f2e88aac3669197b0be2f58520515840bb31cad8e929ea",
+    "links": [
+      "https://docs.stencil.so/tern/elements/data.md",
+      "https://docs.stencil.so/tern/elements/el.md",
+      "https://docs.stencil.so/tern/elements/index.md",
+      "https://docs.stencil.so/tern/elements/input.md",
+      "https://docs.stencil.so/tern/elements/lists.md",
+      "https://docs.stencil.so/tern/elements/text.md",
+      "https://docs.stencil.so/tern/guides/blocks.md",
+      "https://docs.stencil.so/tern/guides/design.md",
+      "https://docs.stencil.so/tern/protocol/input.md",
+      "https://docs.stencil.so/tern/reference/api-host.md",
+      "https://docs.stencil.so/tern/reference/ui.md",
+      "https://docs.stencil.so/tern/styles/css.md",
+      "https://docs.stencil.so/tern/styles/index.md",
+      "https://docs.stencil.so/tern/styles/variables.md"
+    ],
+    "assets": [
+      "https://docs.stencil.so/tern/figures/elements-input-button.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-button.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-buttons-states.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-buttons-states.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-buttons.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-buttons.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-calendar-week.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-calendar-week.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-calendar.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-calendar.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-date.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-date.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-editor.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-editor.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-field-grid.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-field-grid.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-field-row.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-field-row.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-field.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-field.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-input-addons-mono.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-input-addons-mono.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-input-addons-states.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-input-addons-states.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-input-addons.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-input-addons.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-input.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-input.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-otp-states.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-otp-states.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-otp.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-otp.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-placeholder.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-placeholder.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-restyle.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-restyle.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-select-quiet.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-select-quiet.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-select-search.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-select-search.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-select-states.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-select-states.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-select.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-select.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-slider-accent.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-slider-accent.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-slider.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-slider.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-switch-mono.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-switch-mono.light.png",
+      "https://docs.stencil.so/tern/figures/elements-input-switch.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-input-switch.light.png"
+    ]
+  },
+  "elements/layout.md": {
+    "url": "https://docs.stencil.so/tern/elements/layout.md",
+    "title": "Layout",
+    "sha256": "7e159975c43490e3a85a83671dbe1ccdefd028254aebd3f5c0dae902ed614d9a",
+    "links": [
+      "https://docs.stencil.so/tern/elements/data.md",
+      "https://docs.stencil.so/tern/elements/index.md",
+      "https://docs.stencil.so/tern/elements/input.md",
+      "https://docs.stencil.so/tern/elements/layout.md",
+      "https://docs.stencil.so/tern/elements/lists.md",
+      "https://docs.stencil.so/tern/elements/motion.md",
+      "https://docs.stencil.so/tern/elements/text.md",
+      "https://docs.stencil.so/tern/elements/work.md",
+      "https://docs.stencil.so/tern/guides/design.md",
+      "https://docs.stencil.so/tern/protocol/documents.md",
+      "https://docs.stencil.so/tern/protocol/surfaces.md",
+      "https://docs.stencil.so/tern/reference/ui.md",
+      "https://docs.stencil.so/tern/styles/css.md",
+      "https://docs.stencil.so/tern/styles/index.md",
+      "https://docs.stencil.so/tern/styles/variables.md"
+    ],
+    "assets": [
+      "https://docs.stencil.so/tern/figures/elements-layout-align.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-align.light.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-card-fold.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-card-fold.light.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-card-head.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-card-head.light.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-card-tones.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-card-tones.light.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-card-variants.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-card-variants.light.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-empty-drop.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-empty-drop.light.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-empty-pane.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-empty-pane.light.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-empty.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-empty.light.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-gaps.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-gaps.light.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-row.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-row.light.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-rule-marker.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-rule-marker.light.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-rule.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-rule.light.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-scroll-chat.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-scroll-chat.light.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-scroll-log.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-scroll-log.light.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-scroll.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-scroll.light.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-section.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-section.light.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-spacer.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-spacer.light.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-split-col.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-split-col.light.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-split-min.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-split-min.light.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-split-three.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-split-three.light.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-split.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-layout-split.light.png"
+    ]
+  },
+  "elements/lists.md": {
+    "url": "https://docs.stencil.so/tern/elements/lists.md",
+    "title": "Lists, Menus and Navigation",
+    "sha256": "988407d75059ff3fd29e0867d566054167e1879c52d1ca091d502b3e62d6acd8",
+    "links": [
+      "https://docs.stencil.so/tern/elements/data.md",
+      "https://docs.stencil.so/tern/elements/el.md",
+      "https://docs.stencil.so/tern/elements/index.md",
+      "https://docs.stencil.so/tern/elements/input.md",
+      "https://docs.stencil.so/tern/elements/layout.md",
+      "https://docs.stencil.so/tern/elements/lists.md",
+      "https://docs.stencil.so/tern/guides/blocks.md",
+      "https://docs.stencil.so/tern/guides/design.md",
+      "https://docs.stencil.so/tern/guides/views.md",
+      "https://docs.stencil.so/tern/reference/ui.md",
+      "https://docs.stencil.so/tern/styles/index.md",
+      "https://docs.stencil.so/tern/styles/variables.md"
+    ],
+    "assets": [
+      "https://docs.stencil.so/tern/figures/elements-lists-breadcrumb-collapsed.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-breadcrumb-collapsed.light.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-breadcrumb-long.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-breadcrumb-long.light.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-breadcrumb.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-breadcrumb.light.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-list.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-list.light.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-menu-context.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-menu-context.light.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-menu-rich.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-menu-rich.light.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-menu.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-menu.light.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-menubar-closed.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-menubar-closed.light.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-menubar-dock.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-menubar-dock.light.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-menubar-pill.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-menubar-pill.light.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-menubar.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-menubar.light.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-nav-closed.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-nav-closed.light.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-nav-links.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-nav-links.light.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-nav.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-nav.light.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-pager-more.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-pager-more.light.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-pager-pages.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-pager-pages.light.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-pager-range.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-pager-range.light.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-pager.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-pager.light.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-picker.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-picker.light.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-tabs-segmented.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-tabs-segmented.light.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-tabs.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-lists-tabs.light.png"
+    ]
+  },
+  "elements/motion.md": {
+    "url": "https://docs.stencil.so/tern/elements/motion.md",
+    "title": "Progress and Motion",
+    "sha256": "8fdebd54d093e0a6c7d0c2276580fad95d96342965bf28c36672595662b882bb",
+    "links": [
+      "https://docs.stencil.so/tern/elements/data.md",
+      "https://docs.stencil.so/tern/elements/index.md",
+      "https://docs.stencil.so/tern/elements/lists.md",
+      "https://docs.stencil.so/tern/elements/motion.md",
+      "https://docs.stencil.so/tern/elements/text.md",
+      "https://docs.stencil.so/tern/reference/ui.md",
+      "https://docs.stencil.so/tern/styles/css.md",
+      "https://docs.stencil.so/tern/styles/index.md",
+      "https://docs.stencil.so/tern/styles/variables.md"
+    ],
+    "assets": [
+      "https://docs.stencil.so/tern/figures/elements-motion-chart-area.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-chart-area.light.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-chart-donut.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-chart-donut.light.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-chart-line.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-chart-line.light.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-chart-series.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-chart-series.light.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-chart.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-chart.light.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-effort.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-effort.light.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-elapsed.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-elapsed.light.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-heatmap.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-heatmap.light.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-meter.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-meter.light.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-progress.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-progress.light.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-shimmer.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-shimmer.light.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-skeleton-block.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-skeleton-block.light.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-skeleton-pulse.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-skeleton-pulse.light.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-skeleton-rows.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-skeleton-rows.light.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-skeleton-still.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-skeleton-still.light.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-skeleton-wire.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-skeleton-wire.light.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-skeleton.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-skeleton.light.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-spinner.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-motion-spinner.light.png"
+    ]
+  },
+  "elements/text.md": {
+    "url": "https://docs.stencil.so/tern/elements/text.md",
+    "title": "Text and Code",
+    "sha256": "774712a85d57074776b61d09901db88bb84221be9f8b3ac1980704c52ae498f7",
+    "links": [
+      "https://docs.stencil.so/tern/elements/el.md",
+      "https://docs.stencil.so/tern/elements/index.md",
+      "https://docs.stencil.so/tern/elements/input.md",
+      "https://docs.stencil.so/tern/elements/motion.md",
+      "https://docs.stencil.so/tern/elements/text.md",
+      "https://docs.stencil.so/tern/guides/routing.md",
+      "https://docs.stencil.so/tern/protocol/surfaces.md",
+      "https://docs.stencil.so/tern/reference/ui.md",
+      "https://docs.stencil.so/tern/styles/css.md",
+      "https://docs.stencil.so/tern/styles/index.md",
+      "https://docs.stencil.so/tern/styles/variables.md"
+    ],
+    "assets": [
+      "https://docs.stencil.so/tern/figures/elements-text-ansi.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-text-ansi.light.png",
+      "https://docs.stencil.so/tern/figures/elements-text-citations-sources.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-text-citations-sources.light.png",
+      "https://docs.stencil.so/tern/figures/elements-text-citations.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-text-citations.light.png",
+      "https://docs.stencil.so/tern/figures/elements-text-code.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-text-code.light.png",
+      "https://docs.stencil.so/tern/figures/elements-text-diff.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-text-diff.light.png",
+      "https://docs.stencil.so/tern/figures/elements-text-fit.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-text-fit.light.png",
+      "https://docs.stencil.so/tern/figures/elements-text-math.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-text-math.light.png",
+      "https://docs.stencil.so/tern/figures/elements-text-md.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-text-md.light.png",
+      "https://docs.stencil.so/tern/figures/elements-text-tokens.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-text-tokens.light.png"
+    ]
+  },
+  "elements/work.md": {
+    "url": "https://docs.stencil.so/tern/elements/work.md",
+    "title": "Agent, Chat and Task Kinds",
+    "sha256": "0d2d15a8983643a3410a4ce6b8c5ce50a3ca1403b8cc46363152e96620b3820e",
+    "links": [
+      "https://docs.stencil.so/tern/elements/data.md",
+      "https://docs.stencil.so/tern/elements/index.md",
+      "https://docs.stencil.so/tern/elements/work.md",
+      "https://docs.stencil.so/tern/reference/api-host.md",
+      "https://docs.stencil.so/tern/reference/ui.md",
+      "https://docs.stencil.so/tern/styles/variables.md"
+    ],
+    "assets": [
+      "https://docs.stencil.so/tern/figures/elements-work-agent.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-agent.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-checklist.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-checklist.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-message-bubble.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-message-bubble.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-message-flat.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-message-flat.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-message-mono.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-message-mono.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-message.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-message.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-prefs.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-prefs.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-questions-inline.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-questions-inline.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-questions-list.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-questions-list.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-questions-multi.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-questions-multi.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-questions.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-questions.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-stacktrace-long.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-stacktrace-long.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-stacktrace-mono-long.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-stacktrace-mono-long.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-stacktrace-mono.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-stacktrace-mono.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-stacktrace-open.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-stacktrace-open.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-stacktrace-split-narrow.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-stacktrace-split-narrow.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-stacktrace-split.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-stacktrace-split.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-stacktrace.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-stacktrace.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-suggestions-long.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-suggestions-long.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-suggestions.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-suggestions.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-tool-confirm-resolved.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-tool-confirm-resolved.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-tool-confirm.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-tool-confirm.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-tool-preview.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-tool-preview.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-tool.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-tool.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-trace-card.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-trace-card.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-trace-summary.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-trace-summary.light.png",
+      "https://docs.stencil.so/tern/figures/elements-work-trace.dark.png",
+      "https://docs.stencil.so/tern/figures/elements-work-trace.light.png"
+    ]
+  },
+  "guides/debugging.md": {
+    "url": "https://docs.stencil.so/tern/guides/debugging.md",
+    "title": "Debugging",
+    "sha256": "b952fd44f679d725f2611906ce006218f83e021edfb6132f987937b633f15b34",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/lifecycle.md",
+      "https://docs.stencil.so/tern/concepts/runtime.md",
+      "https://docs.stencil.so/tern/guides/chrome.md",
+      "https://docs.stencil.so/tern/guides/commands.md",
+      "https://docs.stencil.so/tern/reference/cli.md",
+      "https://docs.stencil.so/tern/reference/errors.md",
+      "https://docs.stencil.so/tern/reference/ui.md",
+      "https://docs.stencil.so/tern/scripts/index.md"
+    ],
+    "assets": []
+  },
+  "guides/design.md": {
+    "url": "https://docs.stencil.so/tern/guides/design.md",
+    "title": "Designing Views",
+    "sha256": "664a2828efcc1be295b2b5a17295f52b915afc547ed3537c3e9a4dae019339db",
+    "links": [
+      "https://docs.stencil.so/tern/elements/chrome.md",
+      "https://docs.stencil.so/tern/elements/data.md",
+      "https://docs.stencil.so/tern/elements/el.md",
+      "https://docs.stencil.so/tern/elements/index.md",
+      "https://docs.stencil.so/tern/elements/input.md",
+      "https://docs.stencil.so/tern/elements/layout.md",
+      "https://docs.stencil.so/tern/elements/lists.md",
+      "https://docs.stencil.so/tern/elements/motion.md",
+      "https://docs.stencil.so/tern/elements/text.md",
+      "https://docs.stencil.so/tern/elements/work.md",
+      "https://docs.stencil.so/tern/guides/blocks.md",
+      "https://docs.stencil.so/tern/guides/design.md",
+      "https://docs.stencil.so/tern/guides/views.md",
+      "https://docs.stencil.so/tern/protocol/index.md",
+      "https://docs.stencil.so/tern/protocol/sdks.md",
+      "https://docs.stencil.so/tern/protocol/surfaces.md",
+      "https://docs.stencil.so/tern/styles/index.md"
+    ],
+    "assets": [
+      "https://docs.stencil.so/tern/figures/guides-design-after.dark.png",
+      "https://docs.stencil.so/tern/figures/guides-design-after.light.png",
+      "https://docs.stencil.so/tern/figures/guides-design-before.dark.png",
+      "https://docs.stencil.so/tern/figures/guides-design-before.light.png",
+      "https://docs.stencil.so/tern/figures/guides-design-confirm.dark.png",
+      "https://docs.stencil.so/tern/figures/guides-design-confirm.light.png",
+      "https://docs.stencil.so/tern/figures/guides-design-dashboard.dark.png",
+      "https://docs.stencil.so/tern/figures/guides-design-dashboard.light.png",
+      "https://docs.stencil.so/tern/figures/guides-design-states.dark.png",
+      "https://docs.stencil.so/tern/figures/guides-design-states.light.png"
+    ]
+  },
+  "reference/api-host.md": {
+    "url": "https://docs.stencil.so/tern/reference/api-host.md",
+    "title": "Host API",
+    "sha256": "c1e49ef8ca09fea026c7cd79b5c2d8697c994ec016a22948a4d476dfc2fe81b5",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/architecture.md",
+      "https://docs.stencil.so/tern/concepts/lifecycle.md",
+      "https://docs.stencil.so/tern/elements/input.md",
+      "https://docs.stencil.so/tern/guides/blocks.md",
+      "https://docs.stencil.so/tern/guides/design.md",
+      "https://docs.stencil.so/tern/guides/hooks.md",
+      "https://docs.stencil.so/tern/guides/lenses.md",
+      "https://docs.stencil.so/tern/guides/views.md",
+      "https://docs.stencil.so/tern/protocol/input.md",
+      "https://docs.stencil.so/tern/protocol/surfaces.md",
+      "https://docs.stencil.so/tern/reference/api-host.md",
+      "https://docs.stencil.so/tern/reference/events.md",
+      "https://docs.stencil.so/tern/reference/limits.md",
+      "https://docs.stencil.so/tern/reference/manifest.md",
+      "https://docs.stencil.so/tern/reference/ui.md"
+    ],
+    "assets": []
+  },
+  "reference/ui.md": {
+    "url": "https://docs.stencil.so/tern/reference/ui.md",
+    "title": "UI Builders",
+    "sha256": "e12b14d14f0e980e66c581db3fb7a1a61a634bad8ad54c42c41f90321b443da0",
+    "links": [
+      "https://docs.stencil.so/tern/elements/data.md",
+      "https://docs.stencil.so/tern/elements/index.md",
+      "https://docs.stencil.so/tern/elements/input.md",
+      "https://docs.stencil.so/tern/elements/layout.md",
+      "https://docs.stencil.so/tern/guides/views.md",
+      "https://docs.stencil.so/tern/reference/api-host.md"
+    ],
+    "assets": []
+  },
+  "examples/dirvars.md": {
+    "url": "https://docs.stencil.so/tern/examples/dirvars.md",
+    "title": "Directory Variables",
+    "sha256": "9a5d4e360696bde028a952eb1c4a2cf53d289485e832e645ac72bc2bde6fae0b",
+    "links": [],
+    "assets": []
+  },
+  "examples/jsonx.md": {
+    "url": "https://docs.stencil.so/tern/examples/jsonx.md",
+    "title": "JSON Explorer",
+    "sha256": "13c96f3dc9ac9f6c8692e9c3a320d9cd0cdde0b4b58cb3443299f87e735866e3",
+    "links": [
+      "https://docs.stencil.so/tern/examples/review-queue.md"
+    ],
+    "assets": []
+  },
+  "examples/longrun.md": {
+    "url": "https://docs.stencil.so/tern/examples/longrun.md",
+    "title": "Long-Running Commands",
+    "sha256": "2fd7b934f1602e3fe1d5198851c183c7c6bfdb5354b32de9515e533806509ae9",
+    "links": [
+      "https://docs.stencil.so/tern/guides/chrome.md",
+      "https://docs.stencil.so/tern/guides/views.md"
+    ],
+    "assets": []
+  },
+  "examples/review-queue.md": {
+    "url": "https://docs.stencil.so/tern/examples/review-queue.md",
+    "title": "Review Queue",
+    "sha256": "3667a630ec56d81580286ca21a73394e6fa5ef320358e0141fe769a13ba5a846",
+    "links": [
+      "https://docs.stencil.so/tern/guides/commands.md"
+    ],
+    "assets": []
+  },
+  "examples/terraform.md": {
+    "url": "https://docs.stencil.so/tern/examples/terraform.md",
+    "title": "Terraform Plans",
+    "sha256": "fec084e78823e5e84252caeee129506a6b9a659b88ab1b21919b85b14c4b8453",
+    "links": [
+      "https://docs.stencil.so/tern/guides/chrome.md",
+      "https://docs.stencil.so/tern/guides/lenses.md"
+    ],
+    "assets": []
+  },
+  "examples/workspaces.md": {
+    "url": "https://docs.stencil.so/tern/examples/workspaces.md",
+    "title": "Project Workspaces",
+    "sha256": "a7f1e2bd3b529aab92f98dd755b3118575276b193cd0a8213ff63982edf7265e",
+    "links": [
+      "https://docs.stencil.so/tern/guides/chrome.md",
+      "https://docs.stencil.so/tern/guides/commands.md"
+    ],
+    "assets": []
+  },
+  "protocol/surfaces.md": {
+    "url": "https://docs.stencil.so/tern/protocol/surfaces.md",
+    "title": "Surfaces",
+    "sha256": "6b738312f67bad1769c4ef86d5fc9ca66c35f6c5eba55cc745269d89d433ceaf",
+    "links": [
+      "https://docs.stencil.so/tern/elements/chrome.md",
+      "https://docs.stencil.so/tern/guides/design.md"
+    ],
+    "assets": [
+      "https://docs.stencil.so/tern/figures/protocol-surfaces-ls.dark.png",
+      "https://docs.stencil.so/tern/figures/protocol-surfaces-ls.light.png",
+      "https://docs.stencil.so/tern/figures/protocol-surfaces-regions.dark.png",
+      "https://docs.stencil.so/tern/figures/protocol-surfaces-regions.light.png"
+    ]
+  },
+  "styles/css.md": {
+    "url": "https://docs.stencil.so/tern/styles/css.md",
+    "title": "Supported CSS",
+    "sha256": "4d6f357b87ba746bd4b43e74d650d65714fad75465de0d8e371589f858093e81",
+    "links": [
+      "https://docs.stencil.so/tern/elements/data.md",
+      "https://docs.stencil.so/tern/guides/chrome.md",
+      "https://docs.stencil.so/tern/guides/themes.md",
+      "https://docs.stencil.so/tern/styles/css.md",
+      "https://docs.stencil.so/tern/styles/index.md",
+      "https://docs.stencil.so/tern/styles/variables.md"
+    ],
+    "assets": [
+      "https://docs.stencil.so/tern/figures/styles-css-gradients.dark.png",
+      "https://docs.stencil.so/tern/figures/styles-css-gradients.light.png",
+      "https://docs.stencil.so/tern/figures/styles-css-grid.dark.png",
+      "https://docs.stencil.so/tern/figures/styles-css-grid.light.png",
+      "https://docs.stencil.so/tern/figures/styles-css-native.dark.png",
+      "https://docs.stencil.so/tern/figures/styles-css-native.light.png",
+      "https://docs.stencil.so/tern/figures/styles-css-shadows.dark.png",
+      "https://docs.stencil.so/tern/figures/styles-css-shadows.light.png",
+      "https://docs.stencil.so/tern/figures/styles-css-transforms.dark.png",
+      "https://docs.stencil.so/tern/figures/styles-css-transforms.light.png"
+    ]
+  },
+  "styles/variables.md": {
+    "url": "https://docs.stencil.so/tern/styles/variables.md",
+    "title": "CSS Variables",
+    "sha256": "e7d81ac55ee383d059324bfd75a7d852cc9db2269201236cb2a1dab6b1a4ac61",
+    "links": [
+      "https://docs.stencil.so/tern/elements/text.md",
+      "https://docs.stencil.so/tern/guides/themes.md",
+      "https://docs.stencil.so/tern/protocol/surfaces.md",
+      "https://docs.stencil.so/tern/styles/css.md",
+      "https://docs.stencil.so/tern/styles/index.md",
+      "https://docs.stencil.so/tern/styles/variables.md"
+    ],
+    "assets": [
+      "https://docs.stencil.so/tern/figures/styles-variables-deploy.dark.png",
+      "https://docs.stencil.so/tern/figures/styles-variables-deploy.light.png",
+      "https://docs.stencil.so/tern/figures/styles-variables-kit.dark.png",
+      "https://docs.stencil.so/tern/figures/styles-variables-kit.light.png",
+      "https://docs.stencil.so/tern/figures/styles-variables-surface.dark.png",
+      "https://docs.stencil.so/tern/figures/styles-variables-surface.light.png",
+      "https://docs.stencil.so/tern/figures/styles-variables-terminal.dark.png",
+      "https://docs.stencil.so/tern/figures/styles-variables-terminal.light.png"
+    ]
+  },
+  "reference/actions.md": {
+    "url": "https://docs.stencil.so/tern/reference/actions.md",
+    "title": "Built-in Actions",
+    "sha256": "9f70ece922ec648366b24d71a0de8856527b49fdd11bd97d91697b5115637365",
+    "links": [
+      "https://docs.stencil.so/tern/guides/commands.md",
+      "https://docs.stencil.so/tern/reference/actions.md",
+      "https://docs.stencil.so/tern/reference/api-window.md"
+    ],
+    "assets": []
+  },
+  "reference/events.md": {
+    "url": "https://docs.stencil.so/tern/reference/events.md",
+    "title": "Events",
+    "sha256": "2dd47a0d1e2ad7066bd8209a917d1cf3e24738a39d5da28ea2bfb0574793947b",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/runtime.md",
+      "https://docs.stencil.so/tern/guides/hooks.md",
+      "https://docs.stencil.so/tern/guides/layout.md",
+      "https://docs.stencil.so/tern/reference/api-host.md",
+      "https://docs.stencil.so/tern/reference/api-window.md",
+      "https://docs.stencil.so/tern/reference/events.md",
+      "https://docs.stencil.so/tern/reference/limits.md"
+    ],
+    "assets": []
+  },
+  "protocol/documents.md": {
+    "url": "https://docs.stencil.so/tern/protocol/documents.md",
+    "title": "Documents and Frames",
+    "sha256": "bcf67c4b86c142e8424503ea7c92cdf91e44db3750e04020397d39cfa32bff84",
+    "links": [
+      "https://docs.stencil.so/tern/elements/index.md",
+      "https://docs.stencil.so/tern/elements/motion.md",
+      "https://docs.stencil.so/tern/elements/text.md",
+      "https://docs.stencil.so/tern/protocol/input.md",
+      "https://docs.stencil.so/tern/protocol/operations.md",
+      "https://docs.stencil.so/tern/protocol/surfaces.md"
+    ],
+    "assets": [
+      "https://docs.stencil.so/tern/figures/protocol-documents-after.dark.png",
+      "https://docs.stencil.so/tern/figures/protocol-documents-after.light.png",
+      "https://docs.stencil.so/tern/figures/protocol-documents-before.dark.png",
+      "https://docs.stencil.so/tern/figures/protocol-documents-before.light.png"
+    ]
+  },
+  "protocol/handshake.md": {
+    "url": "https://docs.stencil.so/tern/protocol/handshake.md",
+    "title": "Handshake",
+    "sha256": "1c50c318a5879679e0b9ff09aced52a74910c6978231ffd633e88df3f49db41b",
+    "links": [
+      "https://docs.stencil.so/tern/elements/index.md",
+      "https://docs.stencil.so/tern/protocol/documents.md",
+      "https://docs.stencil.so/tern/protocol/handshake.md",
+      "https://docs.stencil.so/tern/protocol/input.md",
+      "https://docs.stencil.so/tern/protocol/operations.md",
+      "https://docs.stencil.so/tern/protocol/surfaces.md",
+      "https://docs.stencil.so/tern/protocol/theme.md",
+      "https://docs.stencil.so/tern/protocol/transport.md"
+    ],
+    "assets": []
+  },
+  "protocol/input.md": {
+    "url": "https://docs.stencil.so/tern/protocol/input.md",
+    "title": "Input and Events",
+    "sha256": "76530347e4720c6e0635dcd72c38e56cfb51159bb6c098cabf02db2747949fea",
+    "links": [
+      "https://docs.stencil.so/tern/elements/data.md",
+      "https://docs.stencil.so/tern/elements/el.md",
+      "https://docs.stencil.so/tern/elements/input.md",
+      "https://docs.stencil.so/tern/elements/layout.md",
+      "https://docs.stencil.so/tern/elements/lists.md",
+      "https://docs.stencil.so/tern/elements/work.md",
+      "https://docs.stencil.so/tern/protocol/input.md",
+      "https://docs.stencil.so/tern/protocol/operations.md",
+      "https://docs.stencil.so/tern/protocol/surfaces.md",
+      "https://docs.stencil.so/tern/protocol/transport.md"
+    ],
+    "assets": []
+  },
+  "protocol/operations.md": {
+    "url": "https://docs.stencil.so/tern/protocol/operations.md",
+    "title": "Flow Control, Persistence and Security",
+    "sha256": "08db88872804873929eff1cd9e1140334b47d65ba3cc9c0cf0f516967a355abb",
+    "links": [
+      "https://docs.stencil.so/tern/elements/el.md",
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/protocol/documents.md",
+      "https://docs.stencil.so/tern/protocol/input.md",
+      "https://docs.stencil.so/tern/protocol/operations.md",
+      "https://docs.stencil.so/tern/protocol/theme.md"
+    ],
+    "assets": []
+  },
+  "protocol/theme.md": {
+    "url": "https://docs.stencil.so/tern/protocol/theme.md",
+    "title": "Stylesheets and Icons",
+    "sha256": "ccc3b7161ef0a71344df63b7270944623d6986fcd25b45422a55ab44bc05c922",
+    "links": [
+      "https://docs.stencil.so/tern/elements/data.md",
+      "https://docs.stencil.so/tern/styles/css.md",
+      "https://docs.stencil.so/tern/styles/index.md"
+    ],
+    "assets": [
+      "https://docs.stencil.so/tern/figures/protocol-theme-sheet.dark.png",
+      "https://docs.stencil.so/tern/figures/protocol-theme-sheet.light.png"
+    ]
+  },
+  "protocol/transport.md": {
+    "url": "https://docs.stencil.so/tern/protocol/transport.md",
+    "title": "Transport",
+    "sha256": "6487c1dfe1b850c0f07ec1c85256ef24a77c06fd595b275232ed93b271b2a7ab",
+    "links": [
+      "https://docs.stencil.so/tern/protocol/documents.md",
+      "https://docs.stencil.so/tern/protocol/handshake.md",
+      "https://docs.stencil.so/tern/protocol/input.md",
+      "https://docs.stencil.so/tern/protocol/operations.md",
+      "https://docs.stencil.so/tern/protocol/surfaces.md",
+      "https://docs.stencil.so/tern/protocol/theme.md",
+      "https://docs.stencil.so/tern/protocol/transport.md"
+    ],
+    "assets": []
+  },
+  "reference/api-shared.md": {
+    "url": "https://docs.stencil.so/tern/reference/api-shared.md",
+    "title": "Shared API",
+    "sha256": "c7c4c0cc54d18152243c08149e5963c09a99586cbbbd42b420b7c0f4cfb28fdf",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/runtime.md",
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/guides/io.md",
+      "https://docs.stencil.so/tern/reference/api-shared.md",
+      "https://docs.stencil.so/tern/reference/api-window.md",
+      "https://docs.stencil.so/tern/reference/limits.md",
+      "https://docs.stencil.so/tern/reference/ui.md"
+    ],
+    "assets": []
+  },
+  "reference/errors.md": {
+    "url": "https://docs.stencil.so/tern/reference/errors.md",
+    "title": "Errors",
+    "sha256": "4d6258cc52d38e771c9c795283f75bb76084571002f7c3ef73e51c5f22442ba3",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/runtime.md",
+      "https://docs.stencil.so/tern/elements/data.md",
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/reference/actions.md",
+      "https://docs.stencil.so/tern/reference/api-host.md",
+      "https://docs.stencil.so/tern/reference/api.md",
+      "https://docs.stencil.so/tern/reference/cli.md",
+      "https://docs.stencil.so/tern/reference/errors.md",
+      "https://docs.stencil.so/tern/reference/events.md",
+      "https://docs.stencil.so/tern/reference/limits.md",
+      "https://docs.stencil.so/tern/reference/manifest.md",
+      "https://docs.stencil.so/tern/reference/ui.md"
+    ],
+    "assets": []
+  },
+  "scripts/board.md": {
+    "url": "https://docs.stencil.so/tern/scripts/board.md",
+    "title": "Board Blocks",
+    "sha256": "cda5f72acdabaa6efe4ea201863ac76612fd8a2caa2e52e9ba577339752b1110",
+    "links": [
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/scripts/control.md",
+      "https://docs.stencil.so/tern/scripts/file.md",
+      "https://docs.stencil.so/tern/scripts/harness.md",
+      "https://docs.stencil.so/tern/scripts/index.md"
+    ],
+    "assets": []
+  },
+  "scripts/browser.md": {
+    "url": "https://docs.stencil.so/tern/scripts/browser.md",
+    "title": "Browser Blocks",
+    "sha256": "59199fd4f24991c2389606ee57905904dedb25cf82529883217a02fc34e1839e",
+    "links": [
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/scripts/control.md",
+      "https://docs.stencil.so/tern/scripts/harness.md",
+      "https://docs.stencil.so/tern/scripts/pip.md"
+    ],
+    "assets": []
+  },
+  "scripts/canvas.md": {
+    "url": "https://docs.stencil.so/tern/scripts/canvas.md",
+    "title": "Canvas Blocks",
+    "sha256": "257fea2c28c3fc41d898ece9898ab9fbda1c1b2bf6ee3715d2991368104b7ed7",
+    "links": [
+      "https://docs.stencil.so/tern/reference/actions.md"
+    ],
+    "assets": []
+  },
+  "scripts/carly.md": {
+    "url": "https://docs.stencil.so/tern/scripts/carly.md",
+    "title": "Carly",
+    "sha256": "d3d4e976a396fbe615e75bb5fddf2b1b0a099a3ac42abbceb1226b06041c3211",
+    "links": [
+      "https://docs.stencil.so/tern/guides/carly.md",
+      "https://docs.stencil.so/tern/scripts/harness.md",
+      "https://docs.stencil.so/tern/scripts/index.md",
+      "https://docs.stencil.so/tern/scripts/sessions.md"
+    ],
+    "assets": []
+  },
+  "scripts/control.md": {
+    "url": "https://docs.stencil.so/tern/scripts/control.md",
+    "title": "Control Commands",
+    "sha256": "c04e2eaed0f0723ab64a49ce5f8581f0fa600725597383fdaa69c692f808b11e",
+    "links": [
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/scripts/browser.md",
+      "https://docs.stencil.so/tern/scripts/harness.md",
+      "https://docs.stencil.so/tern/scripts/index.md"
+    ],
+    "assets": []
+  },
+  "scripts/file.md": {
+    "url": "https://docs.stencil.so/tern/scripts/file.md",
+    "title": "File Blocks",
+    "sha256": "4a5185189abb0c84905a329864bef5acf20aaca75de3d4d991b381e1a53a3776",
+    "links": [
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/scripts/files.md",
+      "https://docs.stencil.so/tern/scripts/git.md",
+      "https://docs.stencil.so/tern/scripts/harness.md",
+      "https://docs.stencil.so/tern/scripts/index.md"
+    ],
+    "assets": []
+  },
+  "scripts/files.md": {
+    "url": "https://docs.stencil.so/tern/scripts/files.md",
+    "title": "Files Pane",
+    "sha256": "e193de5faf5f3e6b367857ba7ed1899c3748d9169ceea91492d31ddd6c03d6c8",
+    "links": [
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/scripts/file.md",
+      "https://docs.stencil.so/tern/scripts/harness.md",
+      "https://docs.stencil.so/tern/scripts/index.md",
+      "https://docs.stencil.so/tern/scripts/remote.md"
+    ],
+    "assets": []
+  },
+  "scripts/git.md": {
+    "url": "https://docs.stencil.so/tern/scripts/git.md",
+    "title": "Git Blocks",
+    "sha256": "9215b766d4da90212464e98f6a6abc7dfdae7d8e9002e558ecd05fb900fef704",
+    "links": [
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/scripts/control.md",
+      "https://docs.stencil.so/tern/scripts/files.md",
+      "https://docs.stencil.so/tern/scripts/index.md",
+      "https://docs.stencil.so/tern/scripts/prefs.md"
+    ],
+    "assets": []
+  },
+  "scripts/harness.md": {
+    "url": "https://docs.stencil.so/tern/scripts/harness.md",
+    "title": "Harness Commands",
+    "sha256": "fef8389e64c9ec78f87de5df365036384c923dd9722845f75d85763bbf773a34",
+    "links": [
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/scripts/browser.md",
+      "https://docs.stencil.so/tern/scripts/control.md",
+      "https://docs.stencil.so/tern/scripts/file.md",
+      "https://docs.stencil.so/tern/scripts/index.md",
+      "https://docs.stencil.so/tern/scripts/terminal.md"
+    ],
+    "assets": []
+  },
+  "scripts/navigation.md": {
+    "url": "https://docs.stencil.so/tern/scripts/navigation.md",
+    "title": "Tabs and Navigation",
+    "sha256": "7ef4d7b989f471fb6a52219ca89d3faa3a23191af432151a9370456589bc96e6",
+    "links": [
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/scripts/control.md",
+      "https://docs.stencil.so/tern/scripts/harness.md",
+      "https://docs.stencil.so/tern/scripts/sessions.md",
+      "https://docs.stencil.so/tern/scripts/terminal.md"
+    ],
+    "assets": []
+  },
+  "scripts/notebook.md": {
+    "url": "https://docs.stencil.so/tern/scripts/notebook.md",
+    "title": "Notebook Blocks",
+    "sha256": "5b1cfafb6700d384f563a03421ad85c73d5e5102d898d615ff00940892b7c728",
+    "links": [
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/scripts/harness.md",
+      "https://docs.stencil.so/tern/scripts/index.md",
+      "https://docs.stencil.so/tern/scripts/sessions.md"
+    ],
+    "assets": []
+  },
+  "scripts/pip.md": {
+    "url": "https://docs.stencil.so/tern/scripts/pip.md",
+    "title": "Pictures in Picture",
+    "sha256": "2a3c268237e075ea0890cf3de8b5efbbac5fbe962c646b050560ee8e8e8bdb16",
+    "links": [
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/scripts/browser.md",
+      "https://docs.stencil.so/tern/scripts/control.md",
+      "https://docs.stencil.so/tern/scripts/harness.md",
+      "https://docs.stencil.so/tern/scripts/terminal.md"
+    ],
+    "assets": []
+  },
+  "scripts/prefs.md": {
+    "url": "https://docs.stencil.so/tern/scripts/prefs.md",
+    "title": "Preferences",
+    "sha256": "2fab242f2b01a3ff374a291f9a319ae5479cc45a4ad2ac34b2980b036ecca553",
+    "links": [
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/scripts/harness.md",
+      "https://docs.stencil.so/tern/scripts/index.md",
+      "https://docs.stencil.so/tern/scripts/remote.md",
+      "https://docs.stencil.so/tern/scripts/terminal.md"
+    ],
+    "assets": []
+  },
+  "scripts/procs.md": {
+    "url": "https://docs.stencil.so/tern/scripts/procs.md",
+    "title": "Task Manager",
+    "sha256": "c4b6d250ff7577b7c96b4b9c568adcc4e6ced1632aa81b07d4396825fb8ee3ae",
+    "links": [
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/scripts/control.md",
+      "https://docs.stencil.so/tern/scripts/harness.md",
+      "https://docs.stencil.so/tern/scripts/index.md",
+      "https://docs.stencil.so/tern/scripts/profile.md",
+      "https://docs.stencil.so/tern/scripts/remote.md"
+    ],
+    "assets": []
+  },
+  "scripts/profile.md": {
+    "url": "https://docs.stencil.so/tern/scripts/profile.md",
+    "title": "Profile Blocks",
+    "sha256": "4d67629797007a0c226479ceec435c1536d5e5580817794c9a57cfda006993c1",
+    "links": [
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/scripts/harness.md",
+      "https://docs.stencil.so/tern/scripts/index.md",
+      "https://docs.stencil.so/tern/scripts/procs.md",
+      "https://docs.stencil.so/tern/scripts/terminal.md"
+    ],
+    "assets": []
+  },
+  "scripts/remote.md": {
+    "url": "https://docs.stencil.so/tern/scripts/remote.md",
+    "title": "Remote Hosts",
+    "sha256": "e1e275b68d2f0ecedf3ee12da9ad12929f7796efd45830f5925d281d25d558ad",
+    "links": [
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/scripts/control.md",
+      "https://docs.stencil.so/tern/scripts/index.md",
+      "https://docs.stencil.so/tern/scripts/prefs.md",
+      "https://docs.stencil.so/tern/scripts/terminal.md"
+    ],
+    "assets": []
+  },
+  "scripts/screen.md": {
+    "url": "https://docs.stencil.so/tern/scripts/screen.md",
+    "title": "Screen Blocks",
+    "sha256": "b3e23cdb69ff111482c416c3b835ac824f0d24378d0e6a481444ce89c7347d3d",
+    "links": [
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/scripts/control.md",
+      "https://docs.stencil.so/tern/scripts/harness.md",
+      "https://docs.stencil.so/tern/scripts/index.md",
+      "https://docs.stencil.so/tern/scripts/remote.md"
+    ],
+    "assets": []
+  },
+  "scripts/sessions.md": {
+    "url": "https://docs.stencil.so/tern/scripts/sessions.md",
+    "title": "Sessions and Blocks",
+    "sha256": "f43b30aa19f9ecc04e4b3bfd28c36bae053f6b7eed21b485a54acf8b0a0c8669",
+    "links": [
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/scripts/harness.md",
+      "https://docs.stencil.so/tern/scripts/index.md",
+      "https://docs.stencil.so/tern/scripts/navigation.md",
+      "https://docs.stencil.so/tern/scripts/terminal.md"
+    ],
+    "assets": []
+  },
+  "scripts/sqlite.md": {
+    "url": "https://docs.stencil.so/tern/scripts/sqlite.md",
+    "title": "SQLite Blocks",
+    "sha256": "36ef89386cb5820da976e18b14e492ac628ecfdabd854fd183cbbed5b99315ec",
+    "links": [
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/scripts/control.md",
+      "https://docs.stencil.so/tern/scripts/files.md",
+      "https://docs.stencil.so/tern/scripts/harness.md",
+      "https://docs.stencil.so/tern/scripts/index.md"
+    ],
+    "assets": []
+  },
+  "scripts/status.md": {
+    "url": "https://docs.stencil.so/tern/scripts/status.md",
+    "title": "Account, Updates and Kickoff",
+    "sha256": "3693afec8b9323cdcfcf2feb2bb0b0c7f1849571ba0716993b0b275641f6d7bf",
+    "links": [
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/scripts/control.md",
+      "https://docs.stencil.so/tern/scripts/harness.md",
+      "https://docs.stencil.so/tern/scripts/index.md",
+      "https://docs.stencil.so/tern/scripts/prefs.md",
+      "https://docs.stencil.so/tern/scripts/remote.md"
+    ],
+    "assets": []
+  },
+  "scripts/terminal.md": {
+    "url": "https://docs.stencil.so/tern/scripts/terminal.md",
+    "title": "Terminal and Panes",
+    "sha256": "efe5f69508243513729870af628c02c4e508fe02c7ba84171af7207dc11a6305",
+    "links": [
+      "https://docs.stencil.so/tern/guides/debugging.md",
+      "https://docs.stencil.so/tern/reference/cli.md",
+      "https://docs.stencil.so/tern/scripts/control.md",
+      "https://docs.stencil.so/tern/scripts/harness.md",
+      "https://docs.stencil.so/tern/scripts/index.md",
+      "https://docs.stencil.so/tern/scripts/navigation.md",
+      "https://docs.stencil.so/tern/scripts/sessions.md"
+    ],
+    "assets": []
+  },
+  "guides/carly.md": {
+    "url": "https://docs.stencil.so/tern/guides/carly.md",
+    "title": "Extending Carly",
+    "sha256": "1ce4fe24380fa4eff96312e9903cb5f62fdf7443afa460b995ecbb8843e83ded",
+    "links": [
+      "https://docs.stencil.so/tern/reference/actions.md",
+      "https://docs.stencil.so/tern/reference/api-window.md"
+    ],
+    "assets": []
+  }
+}
