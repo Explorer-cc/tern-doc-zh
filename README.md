@@ -79,6 +79,7 @@ GitHub Actions 在 `main` 更新后构建并发布到 GitHub Pages。首次部�
 - 后续同步先运行 `npm run sync:check` 更新来源清单，再运行 `npm run sync:assets` 更新原图，并同步对应译文和图片引用。只检查来源、资源完整性、引用和浅深色显示，不增加图片内容辨认要求；图片文件与正文一并提交。
 - 官方文档及图示的翻译、再发布许可仍待确认；SDK 仓库的开源状态不能作为文档资源已获授权的依据。
 - 源码仓库为 [Explorer-cc/tern-doc-zh](https://github.com/Explorer-cc/tern-doc-zh)，默认分支为 `main`。已通过 [GitHub Actions 构建与部署](https://github.com/Explorer-cc/tern-doc-zh/actions/runs/43379809943)，线上地址为 [explorer-cc.github.io/tern-doc-zh](https://explorer-cc.github.io/tern-doc-zh/)；84 条页面路由、深层页刷新、站内导航、本地图片和两种主题下的架构 Mermaid 均已实际验收。
+- 2026-11-23 推送 `f6c1d6c` 后的[部署](https://github.com/Explorer-cc/tern-doc-zh/actions/runs/45201253704) build、deploy 均成功，`sync:check`、`docs:verify` 和生产构建在 Actions 内通过。线上验收：85 条路由全部返回 200，标题和页脚核对日期正确（5 个分类首页以带斜杠的地址提供，不带斜杠时 301 跳转）；页面引用的 504 个资源全部可达，其中 372 张图片、CSS 和字体的大小与本地构建一致；浏览器实测首页完成水合，经导航栏和侧边栏到达术语表页，表内 56 个链接目标全部可达，架构页 Mermaid 渲染出 5 个节点、4 条连线，列表页当前主题的 21 张图片在浅、深两种主题下均解码成功，无控制台错误。站点未声明 favicon，浏览器回退请求的 `/favicon.ico` 返回 404，属既有现象，与本次改动无关。
 - Mermaid 依赖使部分构建分块超过 Vite 的 500 kB 提示阈值；当前构建成功，未关闭该提示。
 
 ## 许可证

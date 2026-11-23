@@ -4,7 +4,7 @@
 
 完整翻译并发布 [Tern Plugin SDK 文档](https://docs.stencil.so/tern/)，站点组织和维护方式参考 [Aieguu/omp-docs-cn](https://github.com/aieguu/omp-docs-cn)，使用 VitePress，并通过 GitHub Actions 部署到 GitHub Pages。Tern 的上游源码仓库是 [stencil-hq/tern-sdk](https://github.com/stencil-hq/tern-sdk)，但文档事实来源以官方文档站为准。
 
-**当前状态（2026-11-23）：** 85 个官方 Markdown 页面均有中文译文。其中 2026-11-13 时已有的 84 页已完成一轮非代码说明的源译逐段技术审校；这不代表零漏译或零错译。2026-11-23 复核上游：内容没有更新；补译了此前漏抓的 `reference/glossary.md`（术语表，69 条术语），该页逐行对照原文翻译并核对了与各链接目标页的术语一致，但尚未经过第二轮审校。全量结构、表格、710 个代码块、站内链接与锚点校验及生产构建通过（85/85 页）。18 个含 PNG 图示的页面、186 组浅深色原图（372 张）已逐张视觉校对并通过实际主题切换与生产显示复核；本轮校对记录见 `image-review.json`。架构 Mermaid 的两主题节点、连线和完整标签也已验收。`upstream-baseline.json` 已更新为 85 页，上游文档版本仍未确认。源码仓库为公开仓库 `Explorer-cc/tern-doc-zh` 的 `main` 分支，GitHub Pages 已上线：[explorer-cc.github.io/tern-doc-zh](https://explorer-cc.github.io/tern-doc-zh/)；2026-11-13 的上线验收覆盖 84 条路由，不含术语表页。文档与图示的翻译、再发布许可仍待确认。
+**当前状态（2026-11-23）：** 85 个官方 Markdown 页面均有中文译文。其中 2026-11-13 时已有的 84 页已完成一轮非代码说明的源译逐段技术审校；这不代表零漏译或零错译。2026-11-23 复核上游：内容没有更新；补译了此前漏抓的 `reference/glossary.md`（术语表，69 条术语），该页逐行对照原文翻译并核对了与各链接目标页的术语一致，但尚未经过第二轮审校。全量结构、表格、710 个代码块、站内链接与锚点校验及生产构建通过（85/85 页）。18 个含 PNG 图示的页面、186 组浅深色原图（372 张）已逐张视觉校对并通过实际主题切换与生产显示复核；本轮校对记录见 `image-review.json`。架构 Mermaid 的两主题节点、连线和完整标签也已验收。`upstream-baseline.json` 已更新为 85 页，上游文档版本仍未确认。源码仓库为公开仓库 `Explorer-cc/tern-doc-zh` 的 `main` 分支，GitHub Pages 已上线：[explorer-cc.github.io/tern-doc-zh](https://explorer-cc.github.io/tern-doc-zh/)；2026-11-23 的部署（[run 45201253704](https://github.com/Explorer-cc/tern-doc-zh/actions/runs/45201253704)）已通过 85 条路由的线上验收，含术语表页。文档与图示的翻译、再发布许可仍待确认。
 
 ## 阶段 1：盘点上游与仓库
 
@@ -113,7 +113,7 @@
 - [x] 翻译 `reference/glossary.md` 为 `docs/reference/glossary.md`：表头与 69 条术语的行序、三列表格与上游一致，站内链接与锚点全部指向中文页面的实际标题。
 - [x] `npm run docs:verify` 通过（85/85 页、710 个代码块），生产构建通过。
 - [ ] 术语表页的第二轮逐段技术审校。
-- [ ] 推送后在线上 GitHub Pages 核对 `/reference/glossary`。
+- [x] 推送 `f6c1d6c` 并部署（[run 45201253704](https://github.com/Explorer-cc/tern-doc-zh/actions/runs/45201253704)，build、deploy 均成功，Actions 内的 `sync:check`、`docs:verify` 和生产构建通过）后，在线上 GitHub Pages 核对 `/reference/glossary`：页面 200，表格 70 行，侧边栏「API 参考」含「术语表」，表内 56 个链接目标全部可达。同时验收了 85 条路由、504 个页面资源、首页水合、导航栏与侧边栏跳转、深层页直接打开、架构 Mermaid，以及列表页浅、深两种主题下各 21 张图片的解码；无控制台错误。站点未声明 favicon，`/favicon.ico` 返回 404，属既有现象。
 
 ## 最终验收
 
