@@ -49,6 +49,42 @@
 | faded / dimmed | 淡化 | 按上下文描述可见度，不因浅深主题的颜色差异推断禁用或加载状态 |
 | spinner | 加载指示器 | 不与数值输入的 stepper（步进器）混淆 |
 | split button | 分离式按钮 | 沿用输入页 split 变体的用语，与 joined 连体按钮区分 |
+| action | 操作 | 按键映射可运行的名称；命令是其中的子集 |
+| budget | 预算 | 一次 Lua 调用的时间上限；超出称“预算超限” |
+| hook | 钩子 | 进入 Lua 的一次调用的名称，如 `pods.view`、`timer`；行文不保留英文 hook |
+| catalog | 目录 | 主机构建并发送给窗口的插件数据；与文件系统的“目录”按上下文区分 |
+| claim | 认领 | Lens 接管命令行的声明式决定；叙述动作时可用“接管” |
+| replica | 副本 | 窗格屏幕的一份拷贝 |
+| rehydration | 重新水合 | 重建 Lens 块丢失的状态 |
+| worker | 工作线程 | 运行插件 Host 端的线程；行文不保留英文 worker |
+| effect | 副作用 | Host 端经 `cx` 向窗口提出的请求（`toast`、`open`、`copy`）；泛指的视觉效果仍写“效果” |
+| formatter | 格式化器 | 计算 chrome 文本的纯窗口函数 |
+| spawn filter | `spawn` 过滤器 | 事件名保留代码格式；不写“启动过滤器” |
+| host | 主机 / Host 端 | 机器意义写“主机”；插件运行的一侧写“Host 端”；事件族写“Host 事件”；`"host"` 上下文名保持小写 |
+| half | 部分 | 插件的两个部分；具体指一半时写 Host 端 / Window 端 |
+| plugins folder | 插件文件夹 | `<config>/plugins/`；不写“plugins 文件夹” |
+| data folder | 数据文件夹 | `<state>/plugin-data/<id>/` |
+| entry | 入口 | 清单的 `host` 或 `window` 指定的 Luau 文件 |
+| problem | 问题 | 插件文件夹中不可用作插件的条目 |
+| status segment | 状态栏片段 | `tern.chrome.status` 返回的一个条目 |
+| span | 文本片段 | 节点中的一段带样式文本；代码中的 `span` 保留 |
+| chord | 按键组合 | `tern.bind` 与 `keybinds` 的写法；不写“组合键” |
+| toast | 提示 | `cx:toast` 等代码保留；行文写“提示”或“提示消息” |
+| window key | 窗口键 | 守护进程中标识一个窗口全部会话的键 |
+
+术语表页（`reference/glossary.md`）的术语列写作“中文（English）”，按英文原词排序；站内没有定型中文译名的术语行只保留英文。
+
+站内既有译法尚未全部统一，新增或修改译文时按上表书写。仍是少数写法的有：英文 hook（`reference/errors.md`、`guides/debugging.md`、`guides/io.md` 等 9 个页面）、英文 worker（`guides/blocks.md`、`guides/lenses.md` 等 6 个页面）、作为 `cx` 请求的“效果”（`guides/hooks.md`、`concepts/architecture.md`）、“启动过滤器”（`reference/events.md`）、“plugins 文件夹”（`concepts/packages.md`、`guides/distribution.md`），以及机器意义的小写 host（`concepts/architecture.md` 等 18 个页面）。
+
+## 审校
+
+新译或更新的页面在 `npm run docs:verify` 和生产构建通过后，还要做一轮内容审校：
+
+- 机械比对：以上游快照为准，逐行比对代码段、数字与单位、链接数量与目标章节（按标题序号对应上游锚点）、链接文本与目标页 H1，以及全角标点和中英文间空格。
+- 逐句对照：核对漏译、增译、条件、否定、数量、单位、主体与数据流向。
+- 术语核对：译名、正文用词和链接文本与本表及目标页的写法一致；站内用法不一致时取多数用法，并在本表和 `TODO.md` 中记录。
+- 上游措辞压缩而有歧义时，只按它链接到的详细页面澄清，并在审校记录中注明依据；不补充上游没有的行为。
+- 每轮审校在 `README.md` 和 `TODO.md` 中记录范围、修正和保留的取舍；审校记录不是零漏译、零错译保证。
 
 ## 链接与静态资源
 
@@ -69,4 +105,4 @@
 - `<...>` 若是示意占位符，放在行内代码中，避免被解析为 HTML 标签。
 - HTML 图示与后续 Markdown 之间留空行，核对 `<figure>` 开闭标签；否则标题可能被当成 HTML 文本而无法生成锚点。浅色与深色图片只显示当前主题对应的一张。
 - 翻译提交前，对照抓取快照检查章节数和顺序、表格结构、代码块、图片、站内链接和锚点。
-- 上游更新后先运行 `npm run sync:check` 查看 `NEW`、`CHANGED`、`REMOVED`；只翻译差异，不覆盖既有中文页。运行 `npm run sync:assets` 更新本地原图，新增或更名的图示须同步更新正文引用；图片文件与译文一并提交。翻译和验证完成后才运行 `npm run sync:accept` 更新 `upstream-baseline.json`。
+- 上游更新后先运行 `npm run sync:check` 查看 `NEW`、`CHANGED`、`REMOVED`；只翻译差异，不覆盖既有中文页。运行 `npm run sync:assets` 更新本地原图，新增或更名的图示须同步更新正文引用；图片文件与译文一并提交。翻译和验证完成后才运行 `npm run sync:accept` 更新 `upstream-baseline.json`。随后提交并推送；推送 `main` 会触发部署，部署后检查线上地址的首页、深层页面、静态资源和站内导航。
