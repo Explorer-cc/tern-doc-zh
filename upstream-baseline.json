@@ -1696,5 +1696,32 @@
       "https://docs.stencil.so/tern/reference/api-window.md"
     ],
     "assets": []
+  },
+  "reference/glossary.md": {
+    "url": "https://docs.stencil.so/tern/reference/glossary.md",
+    "title": "Glossary",
+    "sha256": "00a85b988d2502fcd87f4fb26aa756c66efa1bd7c5037df7791ef88e4f8e332f",
+    "links": [
+      "https://docs.stencil.so/tern/concepts/architecture.md",
+      "https://docs.stencil.so/tern/concepts/lifecycle.md",
+      "https://docs.stencil.so/tern/concepts/packages.md",
+      "https://docs.stencil.so/tern/concepts/runtime.md",
+      "https://docs.stencil.so/tern/guides/blocks.md",
+      "https://docs.stencil.so/tern/guides/chrome.md",
+      "https://docs.stencil.so/tern/guides/layout.md",
+      "https://docs.stencil.so/tern/guides/lenses.md",
+      "https://docs.stencil.so/tern/guides/routing.md",
+      "https://docs.stencil.so/tern/guides/views.md",
+      "https://docs.stencil.so/tern/reference/actions.md",
+      "https://docs.stencil.so/tern/reference/api-host.md",
+      "https://docs.stencil.so/tern/reference/api-window.md",
+      "https://docs.stencil.so/tern/reference/api.md",
+      "https://docs.stencil.so/tern/reference/cli.md",
+      "https://docs.stencil.so/tern/reference/errors.md",
+      "https://docs.stencil.so/tern/reference/events.md",
+      "https://docs.stencil.so/tern/reference/manifest.md",
+      "https://docs.stencil.so/tern/reference/ui.md"
+    ],
+    "assets": []
   }
 }

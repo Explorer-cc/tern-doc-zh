@@ -103,7 +103,7 @@ export default withMermaid(defineConfig({
       },
     },
     footer: {
-      message: "非官方简体中文翻译 · 上游文档版本未确认 · 来源核对日期：2026-11-13",
+      message: "非官方简体中文翻译 · 上游文档版本未确认 · 来源核对日期：2026-11-23",
     },
   },
   mermaid: {

@@ -44,10 +44,10 @@
 
 ## 当前仓库执行接口
 
-- 上游页面清单和本地映射：`upstream-pages.json`；当前抓取清单包含 84 个 Markdown 页面。
-- 运行 `npm run sync:check` 抓取官方 Markdown 到 `.cache/tern-upstream/snapshot/`，生成哈希清单并与已接受基线或前次抓取比较。页面新增、修改或删除时退出码为非零；先翻译、验证，再运行 `npm run sync:accept` 更新基线。
+- 上游页面清单和本地映射：`upstream-pages.json`；当前抓取清单包含 85 个 Markdown 页面。
+- 运行 `npm run sync:check` 抓取官方 Markdown 到 `.cache/tern-upstream/snapshot/`，生成哈希清单并与已接受基线或前次抓取比较。抓取先从 `index.md` 沿正文链接进行，再补抓上游侧边栏 `toc.html` 列出的全部页面；没有正文链接指向的页面（如 `reference/glossary.md`）只能由此发现，不得仅凭正文链接推断页面范围。页面新增、修改或删除时退出码为非零；先翻译、验证，再运行 `npm run sync:accept` 更新基线。
 - 运行 `npm run sync:export-source` 将原文快照导出到 `translation-source/`，供长页面分段读取。脚本只会替换带 `.tern-generated` 所有权标记的目录；无标记的已有目录必须保留并停止导出。
-- 运行 `npm run sync:assets` 按 `upstream-pages.json` 原样下载官方图片到 `docs/assets/`（当前为 `figures/`），保留文件名和图片字节。正文的 `src`、`srcset` 使用本地相对路径，来源清单保留官方 URL；更新时将图片与译文一起提交。`docs:verify` 会检查实际图片引用及本地文件是否存在且非空。
+- 运行 `npm run sync:assets` 按 `upstream-pages.json` 原样下载官方图片到 `docs/assets/`（当前为 `figures/`），保留文件名和图片字节。正文的 `src`、`srcset` 使用本地相对路径，来源清单保留官方 URL；更新时将图片与译文一起提交。`docs:verify` 会检查实际图片引用及本地文件是否存在且非空。哈希基线只覆盖 Markdown 页面；核对上游图片是否变化时，重新运行 `sync:assets` 后查看 `docs/assets/` 的差异。
 - `npm run docs:verify` 使用 VitePress 的 Markdown 解析器核对页面覆盖、章节顺序与层级、代码块及语言标记、渲染后的表格行列、站内链接与实际锚点、上游图示引用；`npm run docs:build` 验证 Vue 模板和生产渲染。不得以正则行数一致代替渲染验收。
 - Pages workflow 在部署前运行 `sync:check`、`docs:verify` 和生产构建；上游漂移或译文未通过检查时不得部署。
 - 不要把 `.cache/` 或临时英文源快照当成中文发布内容；不要因本地构建成功就声称 GitHub Pages 已上线。

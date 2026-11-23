@@ -59,6 +59,20 @@ function extractLinks(markdown, pageUrl) {
   return found;
 }
 
+// The site's table of contents lists every page, including ones such as reference/glossary.md
+// that no page body links to.
+async function sidebarPages() {
+  const url = new URL("toc.html", SITE);
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`${response.status} ${response.statusText}: ${url.href}`);
+  const pages = [];
+  for (const match of (await response.text()).matchAll(/\bhref=["']([^"']+)["']/g)) {
+    const page = normalizePageUrl(match[1]);
+    if (page && !pages.includes(page.href)) pages.push(page.href);
+  }
+  return pages;
+}
+
 function sha256(data) {
   return createHash("sha256").update(data).digest("hex");
 }
@@ -135,35 +149,38 @@ async function main() {
   }
   const baseline = await loadBaseline();
   const previous = Object.keys(baseline).length ? baseline : await loadCurrentManifest();
-  const queue = [new URL("index.md", SITE).href];
   const seen = new Set();
   const records = {};
   await mkdir(SNAPSHOT, { recursive: true });
-
-  while (queue.length) {
-    const url = queue.shift();
-    if (seen.has(url)) continue;
-    seen.add(url);
-    const response = await fetch(url, { headers: { accept: "text/markdown, text/plain" } });
-    if (!response.ok) throw new Error(`${response.status} ${response.statusText}: ${url}`);
-    const text = await response.text();
-    if (!text.trim()) throw new Error(`Empty Markdown response: ${url}`);
-    const path = relativePagePath(url);
-    const target = join(SNAPSHOT, path);
-    await mkdir(dirname(target), { recursive: true });
-    await writeFile(target, text, "utf8");
-    const key = path.replaceAll(sep, "/");
-    records[key] = {
-      url,
-      title: text.match(/^#\s+(.+)$/m)?.[1] ?? "",
-      sha256: sha256(text),
-      links: [...extractLinks(text, new URL(url))].sort(),
-      assets: extractAssets(text, new URL(url)),
-    };
-    for (const next of records[path.replaceAll(sep, "/")].links) {
-      if (!seen.has(next)) queue.push(next);
+  const crawl = async (queue) => {
+    while (queue.length) {
+      const url = queue.shift();
+      if (seen.has(url)) continue;
+      seen.add(url);
+      const response = await fetch(url, { headers: { accept: "text/markdown, text/plain" } });
+      if (!response.ok) throw new Error(`${response.status} ${response.statusText}: ${url}`);
+      const text = await response.text();
+      if (!text.trim()) throw new Error(`Empty Markdown response: ${url}`);
+      const path = relativePagePath(url);
+      const target = join(SNAPSHOT, path);
+      await mkdir(dirname(target), { recursive: true });
+      await writeFile(target, text, "utf8");
+      const key = path.replaceAll(sep, "/");
+      records[key] = {
+        url,
+        title: text.match(/^#\s+(.+)$/m)?.[1] ?? "",
+        sha256: sha256(text),
+        links: [...extractLinks(text, new URL(url))].sort(),
+        assets: extractAssets(text, new URL(url)),
+      };
+      for (const next of records[path.replaceAll(sep, "/")].links) {
+        if (!seen.has(next)) queue.push(next);
+      }
     }
-  }
+  };
+  // Pages only the sidebar links to are crawled last, so body-linked pages keep their order.
+  await crawl([new URL("index.md", SITE).href]);
+  await crawl(await sidebarPages());
 
   const pageMap = Object.fromEntries(Object.entries(records).map(([path, record]) => [path, {
     title: record.title,

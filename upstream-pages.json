@@ -892,5 +892,11 @@
     "source": "https://docs.stencil.so/tern/guides/carly.md",
     "translated": "docs/guides/carly.md",
     "assets": []
+  },
+  "reference/glossary.md": {
+    "title": "Glossary",
+    "source": "https://docs.stencil.so/tern/reference/glossary.md",
+    "translated": "docs/reference/glossary.md",
+    "assets": []
   }
 }
